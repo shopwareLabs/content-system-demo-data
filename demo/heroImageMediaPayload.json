@@ -1,0 +1,13 @@
+{
+    "hydrateHeroImageMedia": {
+        "entity": "media",
+        "action": "upsert",
+        "payload": [
+            {
+                "id": "{{ heroImageMediaId }}",
+                "private": false,
+                "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+            }
+        ]
+    }
+}

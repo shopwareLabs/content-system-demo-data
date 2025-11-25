@@ -1,0 +1,94 @@
+{
+  "hydratePropertyGroups": {
+    "entity": "property_group",
+    "action": "upsert",
+    "payload": [
+      {
+        "id": "567f07c1402342cea6871b74b4cb39c9",
+        "name": "Fabric Material",
+        "description": "The type of material used to manufacture the summer fashion product.",
+        "displayType": "text",
+        "options": [
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3",
+            "name": "Cotton",
+            "colorHexCode": ""
+          },
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073",
+            "name": "Linen",
+            "colorHexCode": ""
+          },
+          {
+            "id": "042418e6de9748c4bd0e911603a1e5ea",
+            "name": "Polyester",
+            "colorHexCode": ""
+          },
+          {
+            "id": "bba7f87f299a47298cac01bc51a3c034",
+            "name": "Rayon",
+            "colorHexCode": ""
+          },
+          {
+            "id": "58c1c2929aa94e4d8d64b03b7f723cbe",
+            "name": "Nylon",
+            "colorHexCode": ""
+          },
+          {
+            "id": "f62317f21cc54037bbe08f5f08de0706",
+            "name": "Spandex",
+            "colorHexCode": ""
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb",
+            "name": "Silk",
+            "colorHexCode": ""
+          }
+        ]
+      },
+      {
+        "id": "74ff18138722490ab604b5d52b7a2dd6",
+        "name": "Color",
+        "description": "The main visual color of the product.",
+        "displayType": "color",
+        "options": [
+          {
+            "id": "8fa59f2d4c7e4dadbdccb8fe91bbc9f2",
+            "name": "White",
+            "colorHexCode": "#FFFFFF"
+          },
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e",
+            "name": "Light Blue",
+            "colorHexCode": "#ADD8E6"
+          },
+          {
+            "id": "0584a070052a40ac952354e72b04497b",
+            "name": "Coral",
+            "colorHexCode": "#FF7F50"
+          },
+          {
+            "id": "646b81f137b44a7aa0f93b006ce651e3",
+            "name": "Yellow",
+            "colorHexCode": "#FFFF00"
+          },
+          {
+            "id": "39cd578dd5934ce1895aa8df9a2da87b",
+            "name": "Mint Green",
+            "colorHexCode": "#98FF98"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723",
+            "name": "Navy",
+            "colorHexCode": "#000080"
+          },
+          {
+            "id": "7c75f189e3554630a333af3a5decce6c",
+            "name": "Hot Pink",
+            "colorHexCode": "#FF69B4"
+          }
+        ]
+      }
+    ]
+  }
+}

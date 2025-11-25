@@ -1,0 +1,3014 @@
+{
+  "hydrateProducts": {
+    "entity": "product",
+    "action": "upsert",
+    "payload": [
+      {
+        "id": "15b1483a14944b89b49ecf9c7fa70c51",
+        "productNumber": "DEMO-15b1483a14944b89b49ecf9c7fa70c51",
+        "name": "Lightweight Sleeveless Midi Dress",
+        "description": "<p>The Lightweight Sleeveless Midi Dress is designed for hot days, offering a simple yet classic look suitable for a variety of summer occasions. The dress features a modest scoop neckline and falls to mid-calf, making it appropriate for afternoon strolls, family gatherings, or casual evenings out. Made from a soft blended fabric, it allows for easy movement and stays comfortable throughout the day. The lack of sleeves provides extra ventilation, and the gentle fit moves naturally with your body, avoiding any feeling of restriction.</p><p>This midi dress includes a discreet zipper at the back, so it's simple to put on or take off. Two side pockets are included for carrying small essentials like keys or your phone, making it both practical and stylish. The dress maintains its appearance after multiple washes, keeping colors vivid and materials smooth. Available in several solid shades, it can be dressed up with accessories or kept simple, depending on your preference.</p><p>Great for day trips, lunch with friends, or relaxed workspaces, this dress is a useful addition to any summer wardrobe. If you prefer understated, reliable fashion pieces, this item meets the mark without drawing too much attention. Please check our sizing guide for more details about fit and measurements.</p>",
+        "stock": 47,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 28.99,
+            "net": 28.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "15b1483a14944b89b49ecf9c7fa70c51",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Helen Granger",
+            "externalEmail": "helen.g1973@example.com",
+            "title": "Fits well and good for daily use",
+            "content": "Wears easily and doesn't cling to the body. I like that it has pockets. Washes well without shrinking or fading.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rachel Myers",
+            "externalEmail": "rachel.myers91@example.com",
+            "title": "Comfy but fabric is a little thin",
+            "content": "Very comfortable in hot weather, but feels a bit light. Works well for layering though.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Janet Li",
+            "externalEmail": "janet.li88@example.com",
+            "title": "Zipper got stuck",
+            "content": "The back zipper got stuck the first time I tried it. Had to get help to open it. Material is soft, but not happy about the zipper.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Mariana Gomez",
+            "externalEmail": "mariana.g@example.com",
+            "title": "Nice color selection and shape",
+            "content": "The darker blue shade is really pretty. Dress shape is flattering, especially for my height. Would buy again in a different color.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sophia White",
+            "externalEmail": "sophiaw25@example.com",
+            "title": "Just okay",
+            "content": "The fit was average. It served its purpose as a summer dress, but I wish there were more patterns to choose from.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "39cd578dd5934ce1895aa8df9a2da87b"
+          }
+        ],
+        "coverId": "0df0a1269240428ba11dd5d58213c6ff",
+        "media": [
+          {
+            "id": "0df0a1269240428ba11dd5d58213c6ff",
+            "media": {
+              "id": "32ed9470087346ec9fcccf2e37bedefd"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e9c66b12553d4c509f2b4f9a580f6ba6",
+        "productNumber": "DEMO-e9c66b12553d4c509f2b4f9a580f6ba6",
+        "name": "Ladies Linen Drawstring Shorts",
+        "description": "<p>Experience comfortable wear with these ladies linen drawstring shorts, designed for hot summer days. Crafted from a blend of linen and viscose, these shorts are breathable and lightweight, making them ideal for beach outings, strolls in the city, or relaxing weekend brunches. The relaxed shape allows for movement without restriction, and the adjustable drawstring waistband ensures a customizable fit. Featuring two front pockets and a subtle back patch pocket, there is enough room to store small everyday items such as keys and cards. The hem falls to the mid-thigh, providing a modern yet modest look suitable for multiple casual settings.</p><p>These shorts come in a muted olive shade, making them easy to pair with various tops and footwear. The fabric has a soft texture that feels gentle against the skin and survives frequent washing without losing its shape. Seams are double-stitched for durability, and there are no uncomfortable tags inside the waistband. With a classic appearance, these shorts match both solid-color shirts and patterned blouses, making them a versatile addition to a summer wardrobe. Whether packing for a trip or enjoying a local gathering, these linen shorts offer practicality and style without compromise.</p>",
+        "stock": 48,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 29.95,
+            "net": 29.95,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "e9c66b12553d4c509f2b4f9a580f6ba6",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Janice Wells",
+            "externalEmail": "janicewells@example.com",
+            "title": "Good summer option",
+            "content": "These are really practical shorts for warm weather. Material is comfortable and the olive color matches many of my tops. Sizing was slightly loose but the drawstring helped. Will probably order again.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Kelly Tran",
+            "externalEmail": "kelly.tran@example.com",
+            "title": "Perfect for my vacation",
+            "content": "I wore these while traveling in Italy and they kept me cool. The pockets are surprisingly spacious. A bit wrinkly after washing but still recommend.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Samantha Yu",
+            "externalEmail": "samantha.yu@example.com",
+            "title": "Not my favorite fit",
+            "content": "The waist is too wide for my shape and the shorts looked baggy. Quality is still good, so maybe just not for everyone.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Maria Gomez",
+            "externalEmail": "maria.gomez@example.com",
+            "title": "Nice quality and color",
+            "content": "Love the material and construction. These feel sturdy. True to the color shown online. I appreciate that the tags don't itch.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Cathy Dubois",
+            "externalEmail": "cathy.dubois@example.com",
+            "title": "Works for daily use",
+            "content": "Great for running errands or quick walks. The length is just right, not too short. I do wish there were more color options.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          }
+        ],
+        "coverId": "411690f5914f4e7080e166d32ae2e244",
+        "media": [
+          {
+            "id": "411690f5914f4e7080e166d32ae2e244",
+            "media": {
+              "id": "cf931a85e34843ca8ea4d9f7cb05d46d"
+            }
+          }
+        ]
+      },
+      {
+        "id": "daea5b2f45cf43b8b4d8891c4449bb91",
+        "productNumber": "DEMO-daea5b2f45cf43b8b4d8891c4449bb91",
+        "name": "Striped Linen Tie-Waist Shorts",
+        "description": "<h2>Product Details</h2>\n<p>Our Striped Linen Tie-Waist Shorts are designed for comfort and style through warm days. They feature a soft, blended linen and viscose fabric that offers breathable wear and a gently structured look. The shorts come in a regular mid-rise fit and fall to mid-thigh length. Vertical blue and white stripes add a classic, fresh look that pairs well with tanks, tees, or button-downs. A flat waistband in front with an elasticized back provides a comfortable fit, while a subtle tie accent at the waist completes the design.</p>\n<ul>\n  <li>Material: 55% linen, 45% viscose</li>\n  <li>Pocket: Side seam pockets</li>\n  <li>Closure: Pull-on style with adjustable waist tie</li>\n  <li>Care: Machine washable, low iron if needed</li>\n</ul>\n<p>Whether for a day at the market or a relaxed lunch outside, these shorts offer enough flexibility for walking, biking, and enjoying the outdoors. They do not restrict movement and can be matched with a variety of colors and shoe types. Customers appreciate the cool feel, as well as the easy transition from casual morning routines to afternoon outings. The stitching is reinforced at stress points, and the seams are finished for durability, making these an essential item for summer wardrobes.</p>\n<h3>Recommendations</h3>\n<p>Wear with simple cotton tops or light button-ups and sandals for a laid-back but put-together look. Great for beach visits, park days, or backyard gatherings.</p>",
+        "stock": 41,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 28.99,
+            "net": 28.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "daea5b2f45cf43b8b4d8891c4449bb91",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jessica M.",
+            "externalEmail": "jessicammail@email.com",
+            "title": "Love the fit and style",
+            "content": "Very comfortable shorts that fit perfectly at the waist and have an easy feel for busy days. The stripes are flattering and go with almost any top. I bought these for a vacation and wore them all week.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Alan P.",
+            "externalEmail": "alanparker@email.com",
+            "title": "Good but runs slightly big",
+            "content": "I like the material and they look well-made. I ordered my usual size but it's a bit loose. The waist tie helps but maybe size down if you like a snugger fit.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Priya S.",
+            "externalEmail": "priya.s@email.com",
+            "title": "Decent but wrinkles easily",
+            "content": "These are lightweight and comfy, but after a few hours of sitting, the linen wrinkles a lot. Still wearable but not for when I need sharp lines all day.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tom R.",
+            "externalEmail": "tomr@email.com",
+            "title": "Perfect for travel",
+            "content": "Soft, breathable, and dries quickly when washed. Wore these on a weekend road trip and didn't feel hot and sticky. The material held up well in hot weather.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Lila D.",
+            "externalEmail": "lilad@email.com",
+            "title": "Not what I expected",
+            "content": "I thought the fabric would be thicker and the length is shorter than I usually wear. Still ok for at-home use, but wouldn't buy again for the price.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3"
+          },
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          }
+        ],
+        "coverId": "fce4559c2fe047fe96265a3ce99276d0",
+        "media": [
+          {
+            "id": "fce4559c2fe047fe96265a3ce99276d0",
+            "media": {
+              "id": "f4e5aa27499d48cb8db124d064276db2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d78d0610e4b84598bd59c509a3c34ce7",
+        "productNumber": "DEMO-d78d0610e4b84598bd59c509a3c34ce7",
+        "name": "Classic Linen Short Sleeve Shirt",
+        "description": "<h2>Product Details</h2>\n<p>The Classic Linen Short Sleeve Shirt is a staple clothing item designed for comfort and versatility during the warmer days of the year. Made from a blend of linen and polyester, it provides a balance between natural feel and durability. The shirt features a straight cut with a regular fit, suitable for many body types. It includes a button-up front, short sleeves, a single pocket on the left chest, and a gently curved hem. The fabric is light and breathable, making it perfect for outings, workdays, or casual weekends. The design stays simple, with solid coloring and subtle stitching for a polished look.</p>\n\n<ul>\n  <li>Material: 55% linen, 45% polyester</li>\n  <li>Collar: Standard turn-down</li>\n  <li>Pocket: One chest patch pocket</li>\n  <li>Washing: Machine washable (cold cycle recommended)</li>\n  <li>Closure: Button-up</li>\n  <li>Hem: Slightly rounded</li>\n  <li>Available in sizes: S, M, L, XL, XXL</li>\n</ul>\n\n<p>This shirt works well when paired with shorts or jeans, making it a versatile option for everyday wear. Its lightweight construction ensures comfort even in humid conditions, and the understated style suits a wide age range. Customers appreciate the reliable sizing and the easy-care instructions, which allow for minimal fuss after washing. Expect a relaxed, yet refined look for various occasions under the sun or in the shade.</p>",
+        "stock": 84,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 36.95,
+            "net": 36.95,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "d78d0610e4b84598bd59c509a3c34ce7",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jessica Nguyen",
+            "externalEmail": "jess.n90@gmail.com",
+            "title": "Nice summer shirt",
+            "content": "This shirt is lightweight and comfortable. Good for hot days. I like the cut and the pocket detail. It fits just as I expected. Color was accurate.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Elijah Mori",
+            "externalEmail": "mori.elijah2@yahoo.com",
+            "title": "Decent value",
+            "content": "The fabric seems strong enough, but I wish it was a little softer. It does dry fast. I've worn it to work and received compliments.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Paula Rice",
+            "externalEmail": "pricerice@hotmail.com",
+            "title": "Not my favorite",
+            "content": "While the fit is okay, the material feels a bit rough compared to some shirts I own. It is not uncomfortable, just not as soft as I hoped.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Faisal Abboud",
+            "externalEmail": "faisal.abb@mail.com",
+            "title": "Perfect for vacations",
+            "content": "Wore this on my recent holiday. Breathes well, and did not wrinkle badly after packing in a suitcase. Sizing is true and I appreciate the classic design.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tara Jenkins",
+            "externalEmail": "tara.jenkins22@email.com",
+            "title": "Just average",
+            "content": "It's a regular shirt. Nothing exciting, but it serves its purpose. Fits fine and looks presentable, but I probably won't buy another.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "0584a070052a40ac952354e72b04497b"
+          },
+          {
+            "id": "8fa59f2d4c7e4dadbdccb8fe91bbc9f2"
+          }
+        ],
+        "coverId": "073eb0d60c0b48b1a9c23f7a21bcae49",
+        "media": [
+          {
+            "id": "073eb0d60c0b48b1a9c23f7a21bcae49",
+            "media": {
+              "id": "8add87df3ca343d59641e2c9aadd9c34"
+            }
+          }
+        ]
+      },
+      {
+        "id": "deb6e9ff21c84cf2bf1f033e9d196fce",
+        "productNumber": "DEMO-deb6e9ff21c84cf2bf1f033e9d196fce",
+        "name": "Light Blue Linen Summer Shirt",
+        "description": "<p>The Light Blue Linen Summer Shirt offers a comfortable and versatile addition to your warm weather wardrobe. This shirt is designed with a relaxed silhouette and short sleeves to keep you cool throughout the day. Made from a high-quality linen-polyester blend, it is soft to the touch while being durable enough to withstand frequent wear and washing. The collar provides a classic touch, making this shirt suitable for a variety of occasions, from casual outings to informal gatherings. A front chest pocket adds both style and practicality, allowing you to carry small items such as sunglasses or cards. The buttons are reinforced for long-lasting use, and the hem falls just below the waist for a modern fit that is not too tight or loose. Pair it easily with shorts, jeans, or chinos for a fresh summer look. </p><p>The shirt is machine washable and easy to care for, drying quickly after washing. Its solid light blue color coordinates well with a range of colors and patterns, letting you experiment with different outfits. Whether you plan to spend a day at the park, head to a backyard barbecue, or simply relax at home, the Light Blue Linen Summer Shirt serves as a reliable and stylish option for everyday wear during the hottest months.</p>",
+        "stock": 72,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 33.95,
+            "net": 33.95,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "deb6e9ff21c84cf2bf1f033e9d196fce",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Morgan T.",
+            "externalEmail": "morgant21@email.com",
+            "title": "Great fit and feel",
+            "content": "I bought this for a trip and it was perfect. The fabric feels great on my skin, and it fits exactly as I hoped. Would buy again.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Samuel R.",
+            "externalEmail": "sam_r93@email.com",
+            "title": "Nice look, but collar was a bit stiff",
+            "content": "Overall the shirt is comfortable, but the collar was stiffer than I expected. Loosened up a bit after washing.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Helena V.",
+            "externalEmail": "hvela@email.com",
+            "title": "Disappointed with the color",
+            "content": "The shirt looked more vibrant online. In person the shade is a bit muted. Fit is okay but not amazing.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Lisa C.",
+            "externalEmail": "lisac414@email.com",
+            "title": "Perfect for hot weather",
+            "content": "This shirt kept me cool during a heat wave. I especially like the material, very light but not see-through. Quality seems good.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Eric Y.",
+            "externalEmail": "ericyin7@email.com",
+            "title": "Pretty good everyday shirt",
+            "content": "Wears well, doesn't get too wrinkled, and matches most of my shorts. I’d prefer a softer texture, but it works fine.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          },
+          {
+            "id": "7c75f189e3554630a333af3a5decce6c"
+          }
+        ],
+        "coverId": "39acab9578a545daa2efcbd528981119",
+        "media": [
+          {
+            "id": "39acab9578a545daa2efcbd528981119",
+            "media": {
+              "id": "2f79c83309d04291bd9ae511061c062d"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a82d5136a55b4a488272724e03fd443d",
+        "productNumber": "DEMO-a82d5136a55b4a488272724e03fd443d",
+        "name": "Striped Linen Button Shirt",
+        "description": "<p>The Striped Linen Button Shirt offers a stylish and versatile option for warm-weather outfits. Crafted with a lightweight, breathable linen-blend fabric, this shirt features a fine vertical stripe pattern in neutral tones, making it suitable for both casual and semi-formal occasions. The regular fit ensures comfort without compromising on appearance, while the short sleeves provide relief during high temperatures. The front is secured with a row of small, sturdy buttons and the classic collar keeps the look sharp. On the left side, a single open pocket adds subtle detail and convenience for small items or sunglasses. The straight hem allows the shirt to be tucked in for a polished look or worn untucked for a more relaxed feel.</p>\n<p>This shirt dries quickly after washing, making it particularly handy for repeat wear through long vacation days. It can be paired with denim shorts, khaki trousers, or swim trunks depending on the event. The fabric resists wrinkles, saving time and effort for those on the go. Machine washable, the Striped Linen Button Shirt is designed for easy care and durability throughout the summer season. Available in multiple sizes, this shirt is a practical choice for travel, outdoor events, or simply staying comfortable and stylish in warm weather.</p>",
+        "stock": 43,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 36.5,
+            "net": 36.5,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "a82d5136a55b4a488272724e03fd443d",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Max Turner",
+            "externalEmail": "maxturner@gmail.com",
+            "title": "Great summer shirt",
+            "content": "Wore this on vacation. Very comfortable and didn't stick in the heat. Would buy again!",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Elena Smith",
+            "externalEmail": "elena.smith@yahoo.com",
+            "title": "Decent but not perfect",
+            "content": "Nice look but I found the fit a bit wide for me. Still good for the beach.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Raj Patel",
+            "externalEmail": "rajp89@mail.com",
+            "title": "Sharp appearance",
+            "content": "Looks good, and the fabric feels solid. Got a lot of compliments.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Julie Chen",
+            "externalEmail": "julie.chen@live.com",
+            "title": "Easy to care for",
+            "content": "After washing several times, the shape and color held up well. Dries fast too.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tom Howard",
+            "externalEmail": "t.howard@webmail.com",
+            "title": "Not for slim builds",
+            "content": "The shirt is a bit loose and not great for those who like a tighter fit. Quality is fine otherwise.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "58c1c2929aa94e4d8d64b03b7f723cbe"
+          },
+          {
+            "id": "f62317f21cc54037bbe08f5f08de0706"
+          }
+        ],
+        "coverId": "052c1971d45c474bbf96f829f5118bb2",
+        "media": [
+          {
+            "id": "052c1971d45c474bbf96f829f5118bb2",
+            "media": {
+              "id": "d6581a186a1c425393fc22e736d737ab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fdc834b378114d2bad8fd94a8127f5a8",
+        "productNumber": "DEMO-fdc834b378114d2bad8fd94a8127f5a8",
+        "name": "Lightweight Patterned Shirt",
+        "description": "<p>This lightweight patterned shirt is designed for daily casual wear during the warmer months. Made from soft, breathable material, it is suitable for both daytime outings and relaxed evenings outside. The shirt has a simple straight cut with short sleeves and a regular button-down collar. A single small pocket is sewn on the left chest, giving it a classic utilitarian look without being overly formal. The pattern consists of understated lines and dots in navy, white, and grey, allowing it to be paired with a variety of pants and shorts.</p>\n<p>The hem falls just below the waist, making it easy to wear untucked. Buttons are made from durable resin that is easy to wash and resists everyday wear and tear. Seams are neatly stitched, providing a durable finish that stands up to regular laundering. The material is lightweight, which makes it comfortable for outdoor activities, but it is also thick enough to be layered over a t-shirt if needed. Cuffs are finished with a simple fold and button.</p>\n<p>This shirt is available in sizes ranging from Small to XXL and has a relaxed fit, offering comfort for different body shapes. It can be easily accessorized, fitting in with shorts, jeans, or dress trousers. The timeless style allows it to fit in many different occasions, from walks in the park to informal social gatherings. Machine washable and easy to care for. No special instructions needed for cleaning, making it a practical addition to summer wardrobes.</p>",
+        "stock": 48,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 26.99,
+            "net": 26.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "fdc834b378114d2bad8fd94a8127f5a8",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Miles Burrows",
+            "externalEmail": "miles.burrows89@example.com",
+            "title": "Good for travel",
+            "content": "I took this shirt on a trip to the coast. It packed well and didn’t wrinkle much. Comfortable all day in warm weather. Would have liked more color choices.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Lori Summers",
+            "externalEmail": "lorisummers33@example.com",
+            "title": "Great everyday shirt",
+            "content": "This is now my go-to shirt for running errands and casual dinners. The material feels nice. Fits well and stays cool. Pocket is handy. Buttons could be a bit stronger.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Kevin Dao",
+            "externalEmail": "kevindao22@example.com",
+            "title": "Too short for me",
+            "content": "I liked the fabric and the pattern, but the shirt length is a bit short for my frame. Otherwise, not bad. Would recommend for shorter people.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Yana Traverse",
+            "externalEmail": "yana.traverse@example.com",
+            "title": "Love the simplicity!",
+            "content": "Hard to find a shirt that goes with so many things. This one checks all my boxes. Comfortable and looks good both tucked or untucked. Washed a couple times, still no fading.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rene Weller",
+            "externalEmail": "reneweller75@example.com",
+            "title": "Not my favorite purchase",
+            "content": "I didn’t like the fit on my shoulders, felt tight. Material is fine otherwise. Delivery was quick.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          }
+        ],
+        "coverId": "80f8230d8a714d27a1b5e3958bdf0aaf",
+        "media": [
+          {
+            "id": "80f8230d8a714d27a1b5e3958bdf0aaf",
+            "media": {
+              "id": "036d9436de6240b69fa0ee7a501edd87"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2d7d64a248544f9592d8b920809dc927",
+        "productNumber": "DEMO-2d7d64a248544f9592d8b920809dc927",
+        "name": "Men's Short Sleeve Button Shirt",
+        "description": "<p>This men's short sleeve button shirt is a great option for warmer months, designed with everyday comfort and style in mind. Made from a high-quality blended fabric, this shirt offers a soft feel against the skin and stands up well to frequent washing. The design is tailored but not tight, providing a relaxed fit that's suitable for a range of body types. The shirt features a traditional collar, short sleeves, and a front placket with durable buttons. Double-stitched seams add resilience, making it a practical piece for both casual and slightly more dressed-up occasions.</p><p>It has a subtle solid color, making it easy to match with shorts, jeans, or chinos. The light and breathable material helps keep you cool whether you're out exploring on vacation, attending a barbecue, or simply relaxing at home. The shirt also includes a front chest pocket that is both functional and adds to the classic styling. You can wear it tucked in or out, depending on the occasion. This is a useful addition to a summer wardrobe that offers reliable comfort and a clean look.</p><p>Care instructions are simple: machine wash cold, tumble dry low. The fabric resists shrinking and maintains its color even after many washes. Sizing is consistent with standard men's fits, available in multiple size options to ensure a better fit for everyone.</p>",
+        "stock": 38,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 25.99,
+            "net": 25.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "2d7d64a248544f9592d8b920809dc927",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jacob Simon",
+            "externalEmail": "jsimon82@gmail.com",
+            "title": "Very comfortable and easy to wear",
+            "content": "I have worn this on several hot days and it kept me cool. The fit is relaxed, which I like, and the buttons seem sturdy. Looks good with jeans. Will buy another color.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Liam O'Connor",
+            "externalEmail": "liam.oc@hotmail.com",
+            "title": "Decent quality for the price",
+            "content": "Shirt material is soft and light. It works fine for casual Fridays at work. After three washes, everything is holding up well.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Wayne Peterson",
+            "externalEmail": "wayne.pt@gmail.com",
+            "title": "Sizes run a bit loose",
+            "content": "The shirt looked well made, but the sizing is a little larger than expected. Maybe choose a size down if you want a snug fit.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rajeev Mishra",
+            "externalEmail": "rajeev.mishra@gmail.com",
+            "title": "Not my favorite color",
+            "content": "I ordered the blue but it's a bit dull. Otherwise, the shirt fits well and is comfortable.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Timothy Clark",
+            "externalEmail": "timclarky@yahoo.com",
+            "title": "Unimpressive",
+            "content": "Did not like the feel of the fabric much. Feels synthetic, but it's okay for outdoor use.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          }
+        ],
+        "coverId": "47a13c3037fa445380f25f82f7532176",
+        "media": [
+          {
+            "id": "47a13c3037fa445380f25f82f7532176",
+            "media": {
+              "id": "5b7eb89d4ada4ad480883155c640df84"
+            }
+          }
+        ]
+      },
+      {
+        "id": "aa97bba32f184bcaa30ac3bff282a413",
+        "productNumber": "DEMO-aa97bba32f184bcaa30ac3bff282a413",
+        "name": "Men's Short Sleeve Button Shirt",
+        "description": "<p>The classic men's short sleeve button shirt is an ideal choice for anyone looking to stay comfortable yet presentable in warm weather. Made from a breathable poly-blend, this shirt offers a soft feel against the skin while ensuring durability for frequent use. The shirt features a full-length button front, a single chest pocket for small items, and a standard, relaxed fit that allows for easy movement throughout the day. Its lightweight structure makes it perfect for all sorts of summer occasions, including outdoor dining, walks in the park, travel, or casual workdays. <br><br>Machine washable and resistant to creasing, this shirt saves you time in both wash and wear. The subtle stitching around the hem and sleeves adds a gentle touch of detail without being flashy. Designed to work well with shorts, trousers, and even swim trunks, this versatile staple is a must-have for anyone building a summer wardrobe.<br><br>Available in several muted colors, it can be dressed up with a pair of chinos for a dinner out or kept casual with sandals and shorts for a weekend get-together. Whether your summer plans involve travel or time at home, this shirt delivers both comfort and style with minimal effort. </p>",
+        "stock": 77,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 32.99,
+            "net": 32.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "aa97bba32f184bcaa30ac3bff282a413",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jared Collins",
+            "externalEmail": "jaredc@hotmail.com",
+            "title": "Great everyday shirt",
+            "content": "I've worn this shirt almost every weekend since I bought it. Comfortable, and it holds up well after washing. Could use a few more color options. Fits well in the shoulders.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Ben Tran",
+            "externalEmail": "bentran87@gmail.com",
+            "title": "Good fit and simple style",
+            "content": "Hard to find shirts that aren't flashy. Fits perfectly, looks good tucked or untucked. The material could be softer, but it's not bad.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Owen Lam",
+            "externalEmail": "owenlam@mail.com",
+            "title": "Does the job",
+            "content": "Bought for a trip, worked fine and didn’t wrinkle easily. Would have liked a slimmer fit but still wearable.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Michael Stone",
+            "externalEmail": "michaelstone@anymail.com",
+            "title": "A bit heavy for hot days",
+            "content": "Quality is fine but the fabric feels too thick when it's really hot outside. Might be better in spring.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Hunter Wilde",
+            "externalEmail": "hunterwilde@mailplace.com",
+            "title": "Lasted through multiple washes",
+            "content": "Have had this for a couple months, color hasn’t faded and buttons stay tight. Satisfied with the durability. Ordered a second one.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "bba7f87f299a47298cac01bc51a3c034"
+          },
+          {
+            "id": "8fa59f2d4c7e4dadbdccb8fe91bbc9f2"
+          }
+        ],
+        "coverId": "5d1fe912857e49558bbd223550531b6e",
+        "media": [
+          {
+            "id": "5d1fe912857e49558bbd223550531b6e",
+            "media": {
+              "id": "36387f599511455bb2902508bc45585b"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1915cfba4b3b45a68b419c653278048f",
+        "productNumber": "DEMO-1915cfba4b3b45a68b419c653278048f",
+        "name": "Sleeveless Plaid Dress",
+        "description": "<p>The Sleeveless Plaid Dress is a relaxed piece designed for hot weather and casual outings. This item is made using a blend of light polyester and a small percentage of linen to offer comfort and breathability without being sheer. The pattern consists of a mix of muted red and navy blue lines, giving the garment a classic summertime appearance suitable for picnics, walks in the park, or informal gatherings.</p><p>This dress comes just above the knee and features adjustable shoulder straps to make it more adaptable to different body shapes. The waist is gently defined with a subtle elastic band at the back for flexibility, while the front is kept smooth for a neater look. The product also includes practical side pockets, which are deep enough to hold small essentials such as keys, a smartphone, or lipstick.</p><p>For easy maintenance, the Sleeveless Plaid Dress can be machine washed in cold water and tumble-dried on low heat. The fabric resists fading and does not require special treatment, making it a practical choice for repeated use over the season. The dress is suitable for indoor and outdoor occasions and pairs well with sandals, casual sneakers, or light jackets. It is available in a range of sizes to provide a better fit for more body types.</p>",
+        "stock": 69,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 29.5,
+            "net": 29.5,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "1915cfba4b3b45a68b419c653278048f",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Anette Ramos",
+            "externalEmail": "an.ramos@example.com",
+            "title": "Easy and comfortable",
+            "content": "I really like the pockets and the fit. It sits well at the waist and feels light enough for the weather. Works well for short walks and quick shopping trips. Happy with this purchase.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Liam Porter",
+            "externalEmail": "liam.p@example.com",
+            "title": "Casual choice for daily use",
+            "content": "Not the most stylish dress, but I like the material. The plaid looks nice, and it's useful for normal days. The length is good and doesn't ride up. Worth the price.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Monique Lee",
+            "externalEmail": "monique.lee@example.com",
+            "title": "Fabric feels okay",
+            "content": "The dress fits but the straps take some time to adjust. The fabric is a bit rougher than I thought, but overall not bad, especially with the color. I'd recommend washing before the first use.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Heather Stearns",
+            "externalEmail": "heather.stearns@example.com",
+            "title": "Nice for warm days",
+            "content": "I wear this when it's really sunny. It covers enough but still feels breezy. No complaints except I wish the pockets were even deeper.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jonas Muller",
+            "externalEmail": "jonas.muller@example.com",
+            "title": "Returned it",
+            "content": "I ordered a size too big and the shape didn't look right on me. The return process was fine, but I won't reorder. The quality seems fine, just not for my body type.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3"
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          }
+        ],
+        "coverId": "fc094fcd561748938bfb6fd6cffd6c1c",
+        "media": [
+          {
+            "id": "fc094fcd561748938bfb6fd6cffd6c1c",
+            "media": {
+              "id": "09cb53c3f7594dc9b50f7825f5d9611f"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b501f97c835d44179c1e068e8014eb7d",
+        "productNumber": "DEMO-b501f97c835d44179c1e068e8014eb7d",
+        "name": "Striped Button-Up Linen Shirt",
+        "description": "<p>This striped button-up linen shirt is a practical addition to any summer wardrobe, designed for warm weather and versatility. Made from a light and breathable linen blend, this shirt features a traditional shirt collar, full front button closure, and long sleeves that can be rolled up for casual wear. Wide horizontal stripes in neutral colors add a relaxed look suitable for everyday activities or vacation outings.</p><p>The fabric offers a soft feel against the skin and ensures comfort during hot afternoons. A single patch pocket on the chest adds a subtle touch of detail, and the straight hem allows for both tucked and untucked styling. The loose fit means you can layer it over a t-shirt or wear it solo for a laid-back approach to style. This shirt is easy to care for and holds up well to repeated washes, making it a dependable item for the whole season.</p><ul><li>Material: 55% linen, 45% viscose</li><li>Available in regular and slim fits</li><li>Colors: Beige with navy stripes</li><li>Care instructions: Machine wash cold, tumble dry low, iron as needed</li></ul><p>Whether you dress it up with chinos or keep it simple with shorts, this shirt transitions easily from day to night. Find your fit and enjoy comfort and style through summer's hottest days.</p>",
+        "stock": 72,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 33.99,
+            "net": 33.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "b501f97c835d44179c1e068e8014eb7d",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Megan K.",
+            "externalEmail": "megank@example.com",
+            "title": "Great for hot days",
+            "content": "I've worn this shirt several times and it keeps me cool. The fit is comfortable, and it matches with most of my summer clothes.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jonas P.",
+            "externalEmail": "jonasp@example.com",
+            "title": "Good quality, but runs large",
+            "content": "The material feels nice and washes well, but the regular fit was a bit too loose for me. Going to exchange for slim fit.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sara T.",
+            "externalEmail": "sarata@emaildomain.com",
+            "title": "Color slightly different",
+            "content": "The beige shade was a bit darker than the picture online, but overall the shirt is still stylish and useful.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Eric S.",
+            "externalEmail": "erics83@example.net",
+            "title": "Not my favorite",
+            "content": "Unfortunately, the stripes just didn't look good on me and the fabric wrinkled quickly after washing. Returned.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Linda W.",
+            "externalEmail": "lindawilson@email.com",
+            "title": "Perfect casual shirt",
+            "content": "Really happy with this purchase. Very easy to wear, and the pocket is a useful touch. I’d buy another in a different color.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          },
+          {
+            "id": "39cd578dd5934ce1895aa8df9a2da87b"
+          }
+        ],
+        "coverId": "41acc5b537c44bae87fa966f17b1874f",
+        "media": [
+          {
+            "id": "41acc5b537c44bae87fa966f17b1874f",
+            "media": {
+              "id": "3e90b60e373547839341b25f0abc8f7c"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b58af1eca15446388eb38463ac89697e",
+        "productNumber": "DEMO-b58af1eca15446388eb38463ac89697e",
+        "name": "Striped Linen Blend Summer Shirt",
+        "description": "<p>The Striped Linen Blend Summer Shirt is perfect for warm days or casual gatherings. Designed with a relaxed fit, this shirt features horizontal stripes in two complimentary neutral colors, making it easy to pair with shorts or trousers. The material combines lightweight linen with soft polyester, which helps keep you cool while maintaining a fresh appearance throughout the day. The collar offers a bit of structure, but you can wear it both open or buttoned up. Short sleeves allow free movement and extra comfort.<br><br>Details include a small front pocket on the left chest for holding sunglasses or cards, plus side vents for a bit more airflow. Each button is securely stitched and the fabric has a subtle texture that is soft against the skin. Machine washable for easy care, this shirt is available in several sizes, giving a loose yet flattering silhouette. The straight hem falls just below the hips, making it suitable for tucking in or leaving out. It can be dressed up with chinos for a dinner out, or worn over a swimsuit at the beach. This versatile shirt is a staple for any summer wardrobe. Upgrade your seasonal looks with this practical and stylish piece, ideal for weekend trips, walks in the park, or relaxing at home.</p>",
+        "stock": 34,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 27.99,
+            "net": 27.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "b58af1eca15446388eb38463ac89697e",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jake Peterson",
+            "externalEmail": "jake.peterson@email.com",
+            "title": "Good summer shirt",
+            "content": "Very comfortable and fits really well. The material is light and dries quickly. I like the stripes because they go with most of my shorts. Will buy another color next time.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Linda Berner",
+            "externalEmail": "linda.berner@email.com",
+            "title": "Nice fabric",
+            "content": "Soft feel and easy to wash. The only downside is that it wrinkles a bit after drying, but it's not too bad. Looks nice and fresh for outings.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Samuel King",
+            "externalEmail": "samuel.king@email.com",
+            "title": "Sizing was a bit off",
+            "content": "Ordered medium but it was a bit larger than I expected. Maybe I should've gone for small. Still wearable, though, and the quality is solid.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Melanie Wu",
+            "externalEmail": "melanie.wu@email.com",
+            "title": "Great for travel",
+            "content": "Packed this shirt for a beach trip and wore it several times. Light and comfortable, didn’t show sweat. Pocket was handy for my sunglasses.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Ravi Patel",
+            "externalEmail": "ravi.patel@email.com",
+            "title": "Color not as pictured",
+            "content": "The shirt is nice but the colors were a bit duller than what I saw online. Otherwise, it's cool and easy to wear.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3"
+          },
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          }
+        ],
+        "coverId": "cac6e2468fc04290b7fc1f34e1a16eda",
+        "media": [
+          {
+            "id": "cac6e2468fc04290b7fc1f34e1a16eda",
+            "media": {
+              "id": "16511ae05eb44abca2f58e5fba0c7855"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b12ab1ab378848ea8f74b23eeee41b27",
+        "productNumber": "DEMO-b12ab1ab378848ea8f74b23eeee41b27",
+        "name": "Women's Short Sleeve Midi Dress",
+        "description": "<p>This women's short sleeve midi dress is designed for comfortable wear during warm weather. The material is light and soft, making it suitable for outdoor gatherings, casual outings, and summer parties. The dress falls below the knee and features a straight, easy-to-wear cut that works for everyday use. There is a gentle waistline that gives a flattering shape without clinging too tightly. The sleeves are slightly loose to allow airflow and comfort. </p>\n<p>On the left side, you'll find a practical pocket, large enough to fit a phone or small wallet. The neckline is rounded, providing a clean look that pairs well with a variety of accessories. The dress comes in neutral colors to blend with most wardrobes: navy blue and light pink. Wearers can easily pair with sneakers or sandals for a laid-back style. </p>\n<p>The dress fabric is easy to care for; it is machine washable and resistant to shrinking. The stitching is reinforced around the neck, sleeves, and hems to withstand frequent use throughout hot months. Layering with lightweight cardigans or jackets is simple for cooler evenings. If you are looking for a versatile garment that fits multiple occasions, this midi dress is a solid choice for the season.</p>",
+        "stock": 71,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 34.99,
+            "net": 34.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "b12ab1ab378848ea8f74b23eeee41b27",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Helen T.",
+            "externalEmail": "helen.t@email.com",
+            "title": "Fits well and great for vacation",
+            "content": "I bought the navy blue dress and wore it during our summer trip. It didn't wrinkle much in my suitcase, and was comfortable for sightseeing. The pocket is a nice touch.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Dina K.",
+            "externalEmail": "dina.k@email.com",
+            "title": "Disappointed with neckline",
+            "content": "The neckline felt a little tighter than expected. Otherwise, the dress was fine and the color matched what I saw online.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Steph T.",
+            "externalEmail": "steph.t@email.com",
+            "title": "Perfect everyday dress",
+            "content": "I love how simple and practical this dress is. I can add a belt or just wear it as is. It washes well and has kept its shape.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Marie R.",
+            "externalEmail": "marie.r@email.com",
+            "title": "Average quality",
+            "content": "It’s okay for the price. The stitching was a bit rough in one spot, but overall it’s held up after several washes.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Penny L.",
+            "externalEmail": "penny.l@email.com",
+            "title": "Uncomfortable sleeves",
+            "content": "The sleeves felt scratchy and I wish the dress was longer. Probably wouldn't buy again, but delivery was fast.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "58c1c2929aa94e4d8d64b03b7f723cbe"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          }
+        ],
+        "coverId": "ea484fc6b23d43f483d97cdf39397d97",
+        "media": [
+          {
+            "id": "ea484fc6b23d43f483d97cdf39397d97",
+            "media": {
+              "id": "b3968ad9d6f7421290d0739d9b7aedd8"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fcf49e4cb7aa4ba681669f7ace774f81",
+        "productNumber": "DEMO-fcf49e4cb7aa4ba681669f7ace774f81",
+        "name": "Printed V-Neck Summer Dress",
+        "description": "<p>This Printed V-Neck Summer Dress is designed to keep you cool and comfortable throughout the warmer months. The dress features a relaxed fit with a modest hemline ending just above the knees, making it suitable for casual day outings, weekend getaways, and informal gatherings. A vibrant, non-repetitive floral pattern adds color and energy, while the lightweight fabric ensures all-day airflow.</p>\n<p>The short sleeves provide enough coverage without restricting movement. The V-shaped neckline offers a flattering look that works well with various accessories, such as necklaces or scarves. A hidden zipper at the side allows for easy dressing, and the inner lining prevents transparency issues so you can feel confident wearing this dress anywhere.</p>\n<p>This item is easy to care for and can be machine washed without risking shrinkage. It is available in multiple sizes to accommodate different body types and is tailored for both comfort and style. Pair it with your favorite sandals or sneakers for a complete summer outfit.</p>\n<ul>\n  <li>Above-the-knee length</li>\n  <li>Non-sheer material with lining</li>\n  <li>Washable and quick to dry</li>\n  <li>Vibrant print, fade resistant</li>\n</ul>",
+        "stock": 54,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 39.99,
+            "net": 39.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "fcf49e4cb7aa4ba681669f7ace774f81",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jessica Park",
+            "externalEmail": "jessica.park82@mailbox.com",
+            "title": "Perfect for Vacation",
+            "content": "I bought this dress for my beach holiday and it was perfect. It's loose enough to be comfy, and I really like the feel of the material. The print is bright and looks good in photos. Would recommend for summer trips.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Emily Tan",
+            "externalEmail": "emilyt.91@fastmail.com",
+            "title": "Soft Material but Zipper Issues",
+            "content": "The dress fits me well and the fabric feels really soft on my skin. My only issue is the zipper gets stuck sometimes. Otherwise, it's a great summer dress.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rachel Ortiz",
+            "externalEmail": "r.ortiz@mailboard.net",
+            "title": "Not True to Size",
+            "content": "I usually wear medium, but this dress was a little tight around the waist. Maybe order one size up for a better fit. The pattern is nice though.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Priya Nair",
+            "externalEmail": "priyanair7@coolmail.com",
+            "title": "Lovely Design",
+            "content": "The colors stayed bright after several washes and it's very easy to throw on. Looks pretty with flats. Good for everyday use.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Megan Lee",
+            "externalEmail": "meganlee55@protonmail.com",
+            "title": "Wrinkles Easily",
+            "content": "Dress looks good when ironed, but tends to wrinkle during the day. If you don’t mind ironing, it’s a nice item.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "8fa59f2d4c7e4dadbdccb8fe91bbc9f2"
+          },
+          {
+            "id": "bba7f87f299a47298cac01bc51a3c034"
+          }
+        ],
+        "coverId": "8d558cf84a2440bf868135c0127b470e",
+        "media": [
+          {
+            "id": "8d558cf84a2440bf868135c0127b470e",
+            "media": {
+              "id": "28761a3d3a814e21b1ed39e843a53b81"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9f835535191b48608a6dab3b12a9b7f0",
+        "productNumber": "DEMO-9f835535191b48608a6dab3b12a9b7f0",
+        "name": "Light Blue Button-Up Short Sleeve Shirt",
+        "description": "<p>The Light Blue Button-Up Short Sleeve Shirt is designed for everyday comfort throughout the summer months. Crafted from a smooth fabric blend, this shirt features a relaxed fit that drapes loosely without feeling baggy. The short sleeves make it ideal for warm days, while the button-up front adds versatility to your wardrobe, allowing you to wear it open over a tank or closed for a smarter look.</p><p>The collar sits flat against the neck and the shirt includes a front pocket for small essentials such as sunglasses or cards. Subtle stitching along the seams adds to the durability and a curved hem allows easy tucking or a casual untucked style. Its gentle blue hue pairs easily with almost any style of shorts or pants and transitions smoothly from daytime errands to evening gatherings. The soft texture makes it breathable without sacrificing a neat appearance.</p><p>This shirt can be machine washed and maintains its shape and color after repeated laundering. Dress it up with slim trousers for low-key gatherings or wear it with board shorts for beach walks. Available in a loose fit and regular fit, it's a simple yet adaptable piece for anyone looking to refresh their summer selection. The look is understated, making it a reliable choice for both simple and layered outfits.</p>",
+        "stock": 63,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 26.99,
+            "net": 26.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "9f835535191b48608a6dab3b12a9b7f0",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jenny Corliss",
+            "externalEmail": "jennyc12@gmail.com",
+            "title": "Very comfortable, easy to style",
+            "content": "Really liked how light and soft the shirt is. Goes well with chinos or even swim trunks. It handles the hot weather without feeling sticky. The sizing was spot on for me. Fabric doesn't wrinkle much after washing.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Caleb Porter",
+            "externalEmail": "calebport@hotmail.com",
+            "title": "Color was not as expected",
+            "content": "The cut and fit are fine, but the blue shade is lighter than I thought from the pictures. It still looks alright, just not exactly what I had in mind. Delivery was quick.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Avi Menon",
+            "externalEmail": "avimenon@domain.com",
+            "title": "Nice basic shirt",
+            "content": "Needed a simple shirt for weekend outings and this fits the bill. The fabric feels nice on the skin and doesn't get too hot even after hours outside. Could use more color options.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Liam D.",
+            "externalEmail": "liam.d@examplemail.com",
+            "title": "Loose fit is quite baggy",
+            "content": "Ordered the loose fit option and it feels a bit too wide for my build. Otherwise, it's a good shirt for lounging at home or casual meetups. Might go for the regular fit next time.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sandra Myles",
+            "externalEmail": "sandra_myles@webmail.com",
+            "title": "Works with lots of outfits",
+            "content": "I've worn this shirt to the park, to dinner, and even to the office on casual days. It washes well and doesn't shrink. Would recommend for anyone who likes simple designs.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "58c1c2929aa94e4d8d64b03b7f723cbe"
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          }
+        ],
+        "coverId": "3a3cf0b65c01445684bfa901e89a59b7",
+        "media": [
+          {
+            "id": "3a3cf0b65c01445684bfa901e89a59b7",
+            "media": {
+              "id": "c10e38a34455478887712016dc846f09"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e707841f3c1842c7adfc2c35f59c97b0",
+        "productNumber": "DEMO-e707841f3c1842c7adfc2c35f59c97b0",
+        "name": "V-Neck Linen Short Sleeve Top",
+        "description": "<p>The V-Neck Linen Short Sleeve Top is designed for everyday summer activities, offering breathability and lightweight comfort. The shirt features a straightforward cut with a subtle V-shaped neckline, providing a neat frame around the collarbone without being too revealing. The sleeves fall just above the mid-arm, ensuring airflow and ease of movement throughout the day, whether you are at work, enjoying a coffee outside, or spending an afternoon with friends. </p>\n\n<p>Constructed from a blend of linen and cotton fibers, this top is soft against the skin while also retaining its structure wash after wash. The hem rests at hip level, allowing it to be tucked in or left out, and the seams are double-stitched for improved durability. The shirt is available in several muted shades suitable for pairing with jeans, shorts, or skirts, making it a versatile addition to a warm-weather wardrobe.</p>\n\n<ul>\n<li>Machine washable, dries quickly</li>\n<li>Tag is located at the lower hem to prevent irritation around the neck</li>\n<li>No decorative prints or loud embellishments, making it easy to match with other items</li>\n<li>Available in sizes from XS to XL</li>\n<li>Light interior lining to prevent transparency</li>\n</ul>",
+        "stock": 48,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 27.99,
+            "net": 27.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "e707841f3c1842c7adfc2c35f59c97b0",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Sandra L.",
+            "externalEmail": "sandra.l@example.com",
+            "title": "Comfortable fit",
+            "content": "This shirt feels soft and keeps me cool in the heat. The neckline sits nicely without being too low.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Eric P.",
+            "externalEmail": "eric.p@example.com",
+            "title": "A bit shorter than expected",
+            "content": "Good material and construction, but I wish the length was just a little longer for my preference.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Donna A.",
+            "externalEmail": "donna.a@example.com",
+            "title": "Easy to wear, easy to wash",
+            "content": "No issues during washing and it dries fast. I appreciate the simple style and soft fabric.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Josephine R.",
+            "externalEmail": "josephine.r@example.com",
+            "title": "Color faded after a few washes",
+            "content": "The color isn't as vibrant as when I first bought it. The fit remains nice but the fabric looks a bit washed out now.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tina S.",
+            "externalEmail": "tina.s@example.com",
+            "title": "Breathable and light",
+            "content": "Perfect for the recent heatwave. I wore it to work and also for walks, no complaints.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          },
+          {
+            "id": "7c75f189e3554630a333af3a5decce6c"
+          }
+        ],
+        "coverId": "321e47573a6f4d6ba9fc85d47cffbcc3",
+        "media": [
+          {
+            "id": "321e47573a6f4d6ba9fc85d47cffbcc3",
+            "media": {
+              "id": "263bd4070eec45529b3bddd7bdd32e53"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3b4f6fc4c5ff481f9bd00d641c6ab2fc",
+        "productNumber": "DEMO-3b4f6fc4c5ff481f9bd00d641c6ab2fc",
+        "name": "Short Sleeve Linen Shirt",
+        "description": "<p>Upgrade your summer wardrobe with this short sleeve linen shirt, designed for easy days and lasting comfort. This shirt is crafted from a lightweight linen blend that keeps you cool and dry under the heat. The simple design features a full button front, a small chest pocket, and a relaxed fit through the body, ensuring you have plenty of room to move. The sleeves are cut just above the elbow for classic summertime style, and the straight hem makes it easy to wear tucked in or out. <br><br>Available in a neutral beige, this piece easily pairs with shorts or trousers for everything from weekend outings to casual work gatherings. The buttons are securely stitched on, and the seams are reinforced for everyday durability, so you can rely on it all season long. Care for this shirt is simple—just machine wash on cold and hang dry for best results.<br><br>Whether you’re headed to a family picnic, a day at the park, or simply relaxing indoors, this linen shirt keeps you looking neat while feeling breezy. Dress it up with a pair of chinos and loafers or keep it casual with sandals and your favorite shorts. It’s the shirt you’ll reach for again and again during the warm months.</p>",
+        "stock": 42,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 34.99,
+            "net": 34.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "3b4f6fc4c5ff481f9bd00d641c6ab2fc",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Max H.",
+            "externalEmail": "maxh@email.com",
+            "title": "Perfect for Hot Weather",
+            "content": "Bought this for my vacation and wore it every other day. Stays cool and looks nice. Washes well and didn’t lose shape.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sandy Roe",
+            "externalEmail": "sandyroe@email.com",
+            "title": "Nice Shirt But a Bit See Through",
+            "content": "I like the comfortable fit and the fabric. Only downside is that the beige color is slightly transparent. Otherwise good quality.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Timothy P.",
+            "externalEmail": "timothyp@email.com",
+            "title": "Loose Fitting",
+            "content": "Feels nice and fits loosely just like I wanted. Doesn’t cling to skin in the heat. Stitching could have been tighter in some areas, but overall decent value.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Dana Wu",
+            "externalEmail": "danawu@email.com",
+            "title": "Didn’t Fit Right",
+            "content": "The style is okay but it was too long for me. Ended up returning it. Customer service was helpful though.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "James R.",
+            "externalEmail": "jamesr@email.com",
+            "title": "Good Everyday Shirt",
+            "content": "Works well for everyday wear. Buttons seem secure and so far no fading after a few washes.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "f62317f21cc54037bbe08f5f08de0706"
+          },
+          {
+            "id": "7c75f189e3554630a333af3a5decce6c"
+          }
+        ],
+        "coverId": "a6bcbb823947469e9ce9da78affbab8f",
+        "media": [
+          {
+            "id": "a6bcbb823947469e9ce9da78affbab8f",
+            "media": {
+              "id": "8610062b194049e49f42c11d5dd3754d"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e70718d087144198af7b2b4cb06332e8",
+        "productNumber": "DEMO-e70718d087144198af7b2b4cb06332e8",
+        "name": "Linen Button Shirt With Short Sleeves",
+        "description": "<h2>Linen Button Shirt With Short Sleeves</h2>\n<p>This linen button shirt is a great addition to your summer collection. Designed with a regular fit and short sleeves, it helps you stay cool and comfortable all day. The shirt has a classic collar and a full row of buttons down the front, making it easy to layer over a tank top or wear on its own. The soft fabric helps wick moisture, which is perfect for warm days spent outdoors or at gatherings. A single patch pocket on the chest adds a touch of detail, ideal for keeping small essentials like sunglasses or tickets handy.</p>\n<p>It is available in four sizes, made to fit a variety of body types. The side slits at the hem offer extra movement for greater comfort. This solid color shirt is easy to match with your favorite shorts or jeans. The back yoke helps the shirt retain its shape after multiple washes, and flat-felled seams provide durability and a neat appearance. With its simple, relaxed look, this shirt can be dressed up or down—perfect for backyard barbecues, a stroll along the boardwalk, or meeting friends for lunch. Machine washable for easy care, this is a reliable piece for any wardrobe.</p>",
+        "stock": 47,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 27.99,
+            "net": 27.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "e70718d087144198af7b2b4cb06332e8",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Nancy Holt",
+            "externalEmail": "nholt123@gmail.com",
+            "title": "Cool and comfortable",
+            "content": "I bought this for my husband and he wears it all the time. The fabric feels good and the fit is relaxed. He likes the simple style.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Marcus Dyson",
+            "externalEmail": "marcusdyson78@yahoo.com",
+            "title": "Nice basic shirt",
+            "content": "Material is light and good for hot weather. It’s just a bit bigger than I expected, but still works. Pleased with the purchase.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rowena Cruz",
+            "externalEmail": "rowenacruz45@hotmail.com",
+            "title": "Not exactly what I thought",
+            "content": "The shirt was okay but I found it a little stiff after the first wash. It did get softer after a few more washes though.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Samir Gupta",
+            "externalEmail": "samir.gupta@gmail.com",
+            "title": "Good for summer",
+            "content": "I like the casual look and it goes well with a lot of shorts I have. Would recommend.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Terry Beck",
+            "externalEmail": "terryb44@gmail.com",
+            "title": "Fit not right for me",
+            "content": "I wanted something a bit more fitted but this was pretty loose. May work better if you like a relaxed fit.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "8fa59f2d4c7e4dadbdccb8fe91bbc9f2"
+          },
+          {
+            "id": "646b81f137b44a7aa0f93b006ce651e3"
+          }
+        ],
+        "coverId": "de03581dc61140cbb37fc8359abb5cd0",
+        "media": [
+          {
+            "id": "de03581dc61140cbb37fc8359abb5cd0",
+            "media": {
+              "id": "a7ad267a7abe4607adad2e207f7ad17e"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e19111421226406eabfbdbd6682a0ef3",
+        "productNumber": "DEMO-e19111421226406eabfbdbd6682a0ef3",
+        "name": "Blue Stripe Sleeveless Dress",
+        "description": "<p>The Blue Stripe Sleeveless Dress is a classic choice for the summer season, offering comfort and style for daytime outings or special occasions. This dress features a straight silhouette that falls just above the knee, making it suitable for warm weather. The light fabric provides breathability, while the sleeveless design allows for ease of movement.</p><p>The dress is made with lined material which prevents any see-through issues while keeping it lightweight. The blue stripe pattern gives it a fresh appearance, suitable for casual gatherings, picnics, or even work events when paired with a simple cardigan. It has two side pockets, a rounded neckline, and a discreet zipper closure at the back. The stitching is done with attention to detail, ensuring durability through multiple washes. </p><p>This dress is versatile enough to be styled with sneakers for a casual look or sandals for a slightly more dressed look. It accommodates different accessories and can be paired with a hat or a light scarf if needed. The fabric is easy-care, requiring only basic washing, and dries quickly. Available in different sizes to fit various body types, the dress gives a neat look and is suitable for multiple body shapes without clinging tightly.</p><ul><li>Materials: blend of viscose and polyester</li><li>Care: machine washable at 30°C</li><li>Pockets: two hidden side pockets</li><li>Closure: back zipper</li></ul><p>Whether for holiday wear or an everyday outfit, this dress is a reliable addition to a summer wardrobe.</p>",
+        "stock": 57,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 29.99,
+            "net": 29.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "e19111421226406eabfbdbd6682a0ef3",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Laura Simons",
+            "externalEmail": "laura.sim88@example.com",
+            "title": "Just right for hot days",
+            "content": "I love how lightweight this dress feels. The fit is flattering without being too tight. I’ve worn it several times and the colors still look good.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Mia Rojas",
+            "externalEmail": "m.rojas@example.com",
+            "title": "Nice but too loose in waist",
+            "content": "The quality is good but the waist was a little too loose for me. Had to add a belt. Otherwise it’s fine for casual days.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Erin Taylor",
+            "externalEmail": "etaylor91@example.com",
+            "title": "Great basic for summer",
+            "content": "I bought this for my vacation and wore it a lot! The fabric breathes well and it didn’t wrinkle much in my suitcase. I wish there were more colors.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sandhya Pillai",
+            "externalEmail": "spillai01@example.com",
+            "title": "Decent but color is lighter",
+            "content": "The stripes are nice, but the blue is lighter than expected. Still, I like the pockets and the overall feel of the dress.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Maddy Chase",
+            "externalEmail": "m.chase82@example.com",
+            "title": "Not my style",
+            "content": "Didn’t like the way it fit on my shoulders. Also, the zipper was a little stiff. Returning it.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          }
+        ],
+        "coverId": "ee47fc8046784ff782d17a760294bab2",
+        "media": [
+          {
+            "id": "ee47fc8046784ff782d17a760294bab2",
+            "media": {
+              "id": "4bed05dc07bf440ba1c146e5d0fe91e4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "66344f1ad91b4cca89de39f1ebc3e571",
+        "productNumber": "DEMO-66344f1ad91b4cca89de39f1ebc3e571",
+        "name": "Light Blue Sleeveless Midi Dress",
+        "description": "<p>This sleeveless midi dress in a light blue shade is designed for comfort and convenience during summer days. Made with a soft fabric blend, it feels gentle on the skin and offers breathability for hot weather. The square neckline adds a touch of modern style, and the casual fit allows for easy movement whether you're walking at the beach or running errands. The skirt sits just below the knee, offering enough coverage without being restrictive.</p><p>There are two side pockets that blend into the seams, adding useful storage while maintaining a simple look. The dress closes with a concealed zipper at the back for a smooth finish. The waist has a subtle gathered detail to provide some shape without clinging too tightly, creating a flattering silhouette for many body types.</p><p>This dress works well as part of a casual outfit but can easily be paired with sandals, sneakers, or accessories for a more put-together appearance. It is machine washable and dries quickly, making it easy to care for during frequent summer use. The light color helps reflect sunlight, further enhancing its suitability for warm days. Overall, this midi dress is a practical and reliable wardrobe option for the season.</p>",
+        "stock": 45,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 32.99,
+            "net": 32.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "66344f1ad91b4cca89de39f1ebc3e571",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Hannah Hill",
+            "externalEmail": "hannah.hill@examplemail.com",
+            "title": "Nice fit for daily wear",
+            "content": "I really like how this dress fits me, especially at the waist. The fabric isn't too thick and works for afternoon outings. Pockets are a big plus!",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Samantha Torres",
+            "externalEmail": "sammyt81@examplemail.com",
+            "title": "Comfortable but size up",
+            "content": "The material is comfortable for the weather, but I found the sizing a bit snug. I would recommend ordering one size larger.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Lily Park",
+            "externalEmail": "lilypark101@examplemail.com",
+            "title": "Good for outings",
+            "content": "Simple style and easy to match with jackets or a hat. Zipper is well hidden. Wore it at a picnic and got compliments!",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Charmaine Li",
+            "externalEmail": "li.charmaine@examplemail.com",
+            "title": "Fabric could be softer",
+            "content": "It's a decent dress, but the texture isn't as soft as I hoped. Still, it looks nice and the color is lovely.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Madison Cook",
+            "externalEmail": "madison.cook@examplemail.com",
+            "title": "Returned, not my style",
+            "content": "Dress was okay quality but I didn't like the length on me. Returned it. Delivery was on time though.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          },
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3"
+          }
+        ],
+        "coverId": "5f04c38e919141d780f3337d0563e796",
+        "media": [
+          {
+            "id": "5f04c38e919141d780f3337d0563e796",
+            "media": {
+              "id": "29f69172422f4109b95488109febff75"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a39811a8cd244e55a7f1bc4a9aa6c402",
+        "productNumber": "DEMO-a39811a8cd244e55a7f1bc4a9aa6c402",
+        "name": "Striped Button-Up Short Sleeve Shirt",
+        "description": "<p>This striped button-up short sleeve shirt is a versatile addition to your summer closet. Designed with comfort in mind, it offers a classic fit that sits nicely on the shoulders without feeling restrictive. The shirt features a neat collar, a full-length button placket, and a single patch pocket on the left chest—a practical detail for carrying small essentials. Vertical stripes in two muted shades add a subtle style without being overwhelming, suitable for both casual outings and relaxed office settings.</p><p>The lightweight weave allows air to circulate, helping keep you cool even on hot days. It tucks easily into shorts or trousers, and the hemline is shaped to look neat whether worn tucked or loose. Double-stitched seams provide strength so you can enjoy multiple summers with this piece. The easy-care fabric resists wrinkling, making it a prime choice for travel. Whether heading to an outdoor lunch or a casual evening gathering, this shirt fits the occasion. Pair it with light-colored shorts for beachside afternoons, or combine with dark jeans for dinner with friends. Easy to wash and dry, this shirt promises a convenient and comfortable option for your warm-weather needs.</p>",
+        "stock": 38,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 27.99,
+            "net": 27.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "a39811a8cd244e55a7f1bc4a9aa6c402",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Marcus G.",
+            "externalEmail": "marcus.g@email.com",
+            "title": "Very comfortable for hot weather",
+            "content": "Really glad I bought this shirt. The material feels light and it's perfect for warm days. I like how it looks with jeans or shorts. It also washed nicely, no shrinking. Would recommend for summer.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Linda R.",
+            "externalEmail": "lindar@email.com",
+            "title": "Nice but not my style",
+            "content": "The quality is good and the fit is fine, but the stripes are a bit bold for my taste. Still, it's comfortable and easy to wear.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Peter Y.",
+            "externalEmail": "peter.y@email.com",
+            "title": "Perfect sizing",
+            "content": "Fits exactly as I expected. The airy fabric is great for vacations. No issues after first few washes.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Cassandra O.",
+            "externalEmail": "cassandrao@email.com",
+            "title": "Didn't suit me",
+            "content": "I found the collar a little too stiff and the color wasn't quite as pictured. It’s okay, but probably wouldn’t buy again.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Brent S.",
+            "externalEmail": "brent.s@email.com",
+            "title": "Best summer purchase",
+            "content": "This shirt is now my regular pick for going out. It's easy to care for and still looks good after several uses. Would love more color choices.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "39cd578dd5934ce1895aa8df9a2da87b"
+          },
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          }
+        ],
+        "coverId": "8fad187ce00b485ba95d6b03fa664e96",
+        "media": [
+          {
+            "id": "8fad187ce00b485ba95d6b03fa664e96",
+            "media": {
+              "id": "440f53ff9d574efe8c97b4089ed2d308"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4a4e401a6ef445db9e37ddec398e5a46",
+        "productNumber": "DEMO-4a4e401a6ef445db9e37ddec398e5a46",
+        "name": "Women’s Linen Blend Button Up Shirt",
+        "description": "<p>Our Women’s Linen Blend Button Up Shirt is a reliable staple for the warmer months. Designed with an easy fit and a classic silhouette, this shirt features a collared neck and full-length buttons down the front, making it adaptable for both casual and slightly dressier occasions. The linen blend fabric allows for lightweight wear, providing airiness on hot days while still offering some coverage. The hem falls just below the hip, and the sleeves are long with adjustable button cuffs, so you can roll them up as needed. <br><br>This piece has a single chest pocket and subtle side splits for increased comfort and ease of movement. The color is a gentle light blue, giving a fresh and versatile appearance suitable for pairing with shorts, skirts, or trousers. Style it open over a tank top or buttoned up with jeans for relaxed weekend activities, picnics, or vacation strolls. It’s machine washable for easy care, and holds up well after repeated cleaning. <br><br>Available in multiple sizes and designed with careful attention to durability, this button up is an ideal addition to anyone’s summer selection who appreciates function and understated style. It’s not see-through and resists wrinkling better than pure linen shirts.</p>",
+        "stock": 84,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 34.99,
+            "net": 34.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "4a4e401a6ef445db9e37ddec398e5a46",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Megan T.",
+            "externalEmail": "megan.t@example.com",
+            "title": "Soft and Fits Well",
+            "content": "I bought this for an upcoming trip and ended up wearing it almost daily. The material is softer than I expected. I got a size small and it’s the perfect relaxed fit.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jordan B.",
+            "externalEmail": "jordan_baker112@example.com",
+            "title": "Sleeves a Bit Long",
+            "content": "Nice overall but the sleeves are a little long for me, had to roll them up. Otherwise good quality and looks nice.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Clara S.",
+            "externalEmail": "clarastone@example.com",
+            "title": "Good for Work",
+            "content": "I wear this shirt to work with khakis and it stays crisp even after a full day. Breathes well and feels comfortable even in the heat.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sandra P.",
+            "externalEmail": "s.peters@example.com",
+            "title": "Color a Bit Faded",
+            "content": "The shirt is nice but the color looked brighter on my computer screen. After one wash, it’s a little lighter. Still comfortable, just not as vibrant as I hoped.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Heather L.",
+            "externalEmail": "heatherl_1990@example.com",
+            "title": "Too Large for Me",
+            "content": "I’m petite and ordered a medium, but it’s really big. Would recommend sizing down if you like a more fitted look.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042418e6de9748c4bd0e911603a1e5ea"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          }
+        ],
+        "coverId": "7dc4a357bf6a46b18d7601af739ed7cd",
+        "media": [
+          {
+            "id": "7dc4a357bf6a46b18d7601af739ed7cd",
+            "media": {
+              "id": "b40f3bcf65064d6797c64c898ad3d767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b839fb67244a4bf2a0750c9e1510240b",
+        "productNumber": "DEMO-b839fb67244a4bf2a0750c9e1510240b",
+        "name": "Striped T-shirt With Chest Pocket",
+        "description": "<p>This striped T-shirt for men is a classic choice for warm weather. It features evenly spaced horizontal stripes in two colors that are easy to pair with shorts or trousers for any casual occasion. The regular crew neck is finished with reinforced stitching to retain its shape even after repeated washing. Short sleeves provide comfort on hot days while the slightly loose fit ensures breathability without looking baggy. The single chest pocket on the left side is large enough to hold tickets or earbuds, keeping small items close at hand. Made from a medium-weight cotton-blend knit, the fabric is soft while still being sturdy enough for repeated use. The back and sleeves are cut to allow free movement, making this T-shirt suitable for walking around town or relaxing by the water. Care instructions are printed on a label sewn into the side seam for convenience. The shirt is available in two combinations: navy with white, and grey with black stripes. It can be washed in a standard machine cycle and does not require ironing if hung to dry. Perfect for those looking for an understated and reliable top to wear throughout the season. The design makes it versatile to combine with various accessories, hats, or shoes for different looks depending on the occasion.</p>",
+        "stock": 82,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 18.99,
+            "net": 18.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "b839fb67244a4bf2a0750c9e1510240b",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "James Milton",
+            "externalEmail": "jamesmilton@example.com",
+            "title": "Simple and Hardwearing",
+            "content": "Bought this shirt two weeks ago and it looks the same after a few washes. Comfortable and fits well. Would recommend for everyday use.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Wendy Cho",
+            "externalEmail": "wendycho@example.com",
+            "title": "Runs A Bit Large",
+            "content": "Overall, it's a great summer shirt but the medium size felt a tad loose for me. Otherwise, fabric is good quality.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Rohan Gill",
+            "externalEmail": "rohangee@example.com",
+            "title": "Nice Everyday Shirt",
+            "content": "The stripes are not too bold so it works with a lot of my clothes. Keeps me cool and holds up in the dryer.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Leah Burns",
+            "externalEmail": "leahburns@example.com",
+            "title": "Color Not As Bright",
+            "content": "I got the navy version but the color is more muted than on the screen. Otherwise, it's comfortable and I wear it often.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Hector Rioseco",
+            "externalEmail": "hrioseco@example.com",
+            "title": "Not Satisfied",
+            "content": "I expected a heavier shirt for the price. Feels nice but not worth the cost in my opinion.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          },
+          {
+            "id": "0584a070052a40ac952354e72b04497b"
+          }
+        ],
+        "coverId": "785b7d89b1bd43d0a3e4f776cad40851",
+        "media": [
+          {
+            "id": "785b7d89b1bd43d0a3e4f776cad40851",
+            "media": {
+              "id": "349486942ecb4ce7996c700526676492"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0862d835e4c4421a8cd07f8945dd9f3f",
+        "productNumber": "DEMO-0862d835e4c4421a8cd07f8945dd9f3f",
+        "name": "Women's Linen Wrap Dress",
+        "description": "<p>The Women's Linen Wrap Dress is a practical choice for summer days. This dress offers a relaxed fit designed for comfort, with an adjustable waist tie that lets you adjust to your comfort level. The fabric is light and easy to wear, making it suitable for long walks or outdoor gatherings. The V-neckline and short sleeves keep the look simple and the knee-length hem provides suitable coverage for a broad range of casual settings.</p>\n<p>Featuring two handy side pockets, you can keep essentials close by. The dress is easy to pair with slip-on sandals or flats, making it a versatile item for your wardrobe. With reinforced seams and quality finishing, the dress is created to withstand repeated washes throughout the season. The muted solid color allows you to coordinate easily with different accessories — whether a sun hat, simple necklace or tote bag.</p>\n<p>This dress is designed to suit everyday activities, whether you’re attending a backyard event or heading to the beachside. The linen blend feels comfortable in different temperatures, especially during warm afternoons. For easy maintenance, the dress is machine washable on a gentle cycle. Sizes are available to match different body shapes. Please review the sizing chart before selecting an option. The dress keeps its original feel and shape without fading, ensuring a longer lasting fit across many summer activities.</p>",
+        "stock": 49,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 44.99,
+            "net": 44.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "0862d835e4c4421a8cd07f8945dd9f3f",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Ella Wilkins",
+            "externalEmail": "ellawilkins@email.com",
+            "title": "Perfect for hot days",
+            "content": "I purchased this dress for my holiday and wore it almost every other day. It feels really comfortable and the material breathes well. The pockets are big enough for my phone and keys. Would recommend to anyone wanting a simple summer outfit.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tina Martinez",
+            "externalEmail": "tinamartinez@email.com",
+            "title": "Nice but wrinkles easily",
+            "content": "The fit is good and I like the style, but it wrinkles more than I hoped after washing. I had to iron it a couple of times. Still, it’s comfy for casual wear.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sara Lin",
+            "externalEmail": "saralin@email.com",
+            "title": "Soft, lightweight and easy to wear",
+            "content": "This wrap dress is so light that I barely notice wearing it. The tie waist is actually adjustable and fits well even after I ate a big lunch. I got many compliments too.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jessie Thorn",
+            "externalEmail": "jessiet@email.com",
+            "title": "Didn't like the color",
+            "content": "The color was different than in the pictures. Came out looking a little dull for my taste. Quality is fine and it's sewn well. Didn't return it but not what I expected.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Megan F.",
+            "externalEmail": "meganf@email.com",
+            "title": "Great for travel",
+            "content": "Bought for a trip to Italy. It packed small and stayed comfortable in hot weather. Not see-through at all, which I appreciate. A little loose on the sleeves but still looked nice.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          }
+        ],
+        "coverId": "66ad69c4fdd244c2bd7c4a0a0342c15e",
+        "media": [
+          {
+            "id": "66ad69c4fdd244c2bd7c4a0a0342c15e",
+            "media": {
+              "id": "bb30e40e1cb742719e08bd44437d452d"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9827da0320e74ac2a8dd74e2cdb111c0",
+        "productNumber": "DEMO-9827da0320e74ac2a8dd74e2cdb111c0",
+        "name": "Woven Linen Button-Up Shirt",
+        "description": "<h2>Casual Style and Everyday Comfort</h2>\n<p>This <strong>Woven Linen Button-Up Shirt</strong> is a perfect choice for anyone looking to stay comfortable during warm seasons. Designed for daily wear, the shirt features a relaxed collar, a full-length button closure, and a left chest pocket for added convenience.</p>\n<ul>\n<li>Material: 100% linen for breathability</li>\n<li>Sleeve: Short</li>\n<li>Closure: Buttons along the front</li>\n<li>Pocket: Single chest pocket</li>\n<li>Care: Machine washable</li>\n</ul>\n<p>The shirt is tailored to offer a regular fit, allowing for enough room without feeling baggy. Its lightweight fabric ensures airflow on sunny days, helping to keep you cool. The simple design makes it easy to pair with jeans, shorts, or even swim trunks, providing versatility for different occasions. Whether you're heading out for a day at the park or just relaxing at home, this top brings both function and basic style to your summer wardrobe.</p>\n<p>Many appreciate the thoughtful construction, with reinforced shoulder seams and sturdy buttons to ensure long-lasting wear. The shirt is also gentle on skin, ideal for those with sensitive skin. Customers often choose this piece as a staple for holidays, beach days, or informal gatherings. </p>\n<p><em>Available in multiple sizes and color options, this shirt is a must-have for anyone seeking a straightforward and practical summer top.</em></p>",
+        "stock": 36,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 28.99,
+            "net": 28.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "9827da0320e74ac2a8dd74e2cdb111c0",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "John Halberg",
+            "externalEmail": "johnhalberg@mail.com",
+            "title": "Reliable shirt for casual days",
+            "content": "Bought this last month and have worn it several times. It's held up really well in the wash, no fading yet. The fit was as listed. Very happy with this purchase.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Sara Gentle",
+            "externalEmail": "sara.gentle@hotmail.com",
+            "title": "Nice but a bit loose",
+            "content": "The shirt feels comfortable and the fabric is good for sunny weather. I ordered a medium but it feels large on me. I recommend checking the size chart closely.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Michael Lee",
+            "externalEmail": "michaellee@email.org",
+            "title": "Shrinks a little",
+            "content": "After a couple of washes, I noticed it shrank slightly. Still wearable but next time I might size up.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jessica Santos",
+            "externalEmail": "jsantos998@gmail.com",
+            "title": "Simple and comfortable",
+            "content": "Exactly what I was looking for - something light and basic. Happy with the quality and the price was decent.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Peter Orwell",
+            "externalEmail": "porwell@onmail.co",
+            "title": "Not for people who sweat a lot",
+            "content": "The shirt is fine, but it tends to show sweat marks easily. Might try another fabric next time.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042418e6de9748c4bd0e911603a1e5ea"
+          },
+          {
+            "id": "58c1c2929aa94e4d8d64b03b7f723cbe"
+          }
+        ],
+        "coverId": "238aa758505c4ff7996f12a153343cd0",
+        "media": [
+          {
+            "id": "238aa758505c4ff7996f12a153343cd0",
+            "media": {
+              "id": "6319810fca0041c99b969768862d1706"
+            }
+          }
+        ]
+      },
+      {
+        "id": "487b8217b9154ba4b4e15a2d282ab8e3",
+        "productNumber": "DEMO-487b8217b9154ba4b4e15a2d282ab8e3",
+        "name": "Stripe Pattern Button-Up Shirt",
+        "description": "<h2>Product Details</h2>\n<p>This stripe pattern button-up shirt is a versatile addition to your summer wardrobe. Designed with short sleeves and a relaxed cut, it is suitable for both casual outings and more semi-formal occasions when paired with the right bottoms. The classic collar and front chest pocket provide a timeless look, while the carefully chosen striped print adds a touch of character without being overwhelming.</p>\n<p>Made from easy-care materials, this shirt is lightweight and suitable for hot days, ensuring you stay comfortable throughout. The soft, non-irritating fabric allows for excellent breathability and movement. The cut allows for easy layering over undershirts or wearing on its own. The straight hem and well-stitched seams add durability, and the buttons are securely sewn for long-lasting use.</p>\n<p>This item is available in multiple sizes to fit a range of body types, and the fit options let you choose between a regular or slightly relaxed style. Whether you're planning for a beachside evening, weekend gathering, or just daily errands, this shirt balances comfort and practicality with an understated design.</p>\n<ul>\n<li>Material: 65% polyester, 35% viscose</li>\n<li>Available in blue/white stripe</li>\n<li>Machine washable</li>\n<li>Short sleeves</li>\n<li>Chest pocket</li>\n</ul>",
+        "stock": 42,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 25.49,
+            "net": 25.49,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "487b8217b9154ba4b4e15a2d282ab8e3",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jonathan L.",
+            "externalEmail": "jluser@example.com",
+            "title": "Solid Everyday Shirt",
+            "content": "I bought this for work and general use. The fit is exactly as described and it doesn't stick to my skin during hot weather. The stripes look neat without being too loud. Would recommend for everyday wear.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Maria S.",
+            "externalEmail": "marias1987@example.com",
+            "title": "Nice but runs large",
+            "content": "The shirt is nice and arrived quickly. However, it fits a bit larger than expected so I would suggest sizing down if you prefer a snug fit. Quality is good for the price.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Ben H.",
+            "externalEmail": "benhhh@example.com",
+            "title": "Not impressed with stitching",
+            "content": "The shirt looks fine but after one wash a bit of loose thread appeared at the hem. Decent for the price but I expected better finishing.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Danny K.",
+            "externalEmail": "danielk@example.com",
+            "title": "My new go-to shirt",
+            "content": "Lightweight and airy, exactly what I needed for warm days. The length is perfect to wear open over a t-shirt or buttoned up. Feels soft on skin.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Erica P.",
+            "externalEmail": "ericap@example.com",
+            "title": "Color is good, wrinkles easily",
+            "content": "Loved the color combo and the stripes are subtle. The shirt wrinkles easily after washing, so needs ironing each time. Otherwise comfortable.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "f62317f21cc54037bbe08f5f08de0706"
+          },
+          {
+            "id": "bc472bbf24214491aa76db04d1398ddb"
+          }
+        ],
+        "coverId": "6bd3c5c957d44279a63a7d4b18dec357",
+        "media": [
+          {
+            "id": "6bd3c5c957d44279a63a7d4b18dec357",
+            "media": {
+              "id": "01e5a3676b134f7e899c238f92e84251"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f3cff7809b9540a98c78f0b509911d46",
+        "productNumber": "DEMO-f3cff7809b9540a98c78f0b509911d46",
+        "name": "Men's Short Sleeve Linen Shirt",
+        "description": "<p>This men's short sleeve button-up shirt is made from plain-woven linen and is perfect for warm weather. Lightweight and soft to the touch, it features a relaxed fit that works well for both casual and semi-formal summer occasions. The shirt is equipped with a traditional collar, one chest pocket, and a straight hem. Buttons are securely stitched, while the side vents allow for comfortable movement. The fabric is breathable, helping keep the wearer cool on hot days, and it looks just as good worn untucked as it does tucked in. </p><p>Easy to care for, it can be machine washed and air dried. Pair it with shorts or chinos for a laid-back look, or dress it up under a blazer for more formal settings. The shirt’s simple single-color design makes it versatile enough to match a variety of items already in most wardrobes. Select from multiple sizes to ensure a comfortable fit. This shirt has been designed with durability in mind – the seams are double-stitched so it'll last through repeated wear. An essential for days by the shore or evenings out in the city, this shirt is built for both comfort and style without unnecessary extras. </p>",
+        "stock": 70,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 34.99,
+            "net": 34.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "f3cff7809b9540a98c78f0b509911d46",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Adam H.",
+            "externalEmail": "adam.harris93@example.com",
+            "title": "Good for Hot Days",
+            "content": "I wore this shirt all weekend and was surprised at how comfortable it felt. The material is soft and doesn't stick to my skin. It's become my go-to for outdoor events.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Michael J.",
+            "externalEmail": "mjordan71@example.com",
+            "title": "Fit Runs a Bit Large",
+            "content": "The shirt is nice, but the cut is a little too loose for me. Still wearable, but consider going one size smaller if you like a closer fit.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Tom S.",
+            "externalEmail": "tom_smith@example.com",
+            "title": "Works with Everything",
+            "content": "Matches most shorts and pants I own. Looks clean and simple. Washed twice so far and it still looks like new.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Lucas P.",
+            "externalEmail": "lucaspl@example.com",
+            "title": "Not My Style",
+            "content": "Quality is fine but the shape doesn't work for me. I prefer shirts with a slimmer cut.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Dean W.",
+            "externalEmail": "deanwin@example.com",
+            "title": "Nice Fabric, Good Value",
+            "content": "Shirt holds up well and the fabric feels cool. Was a little wrinkled on delivery, but after ironing it's good.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "042c6a72792c49f2aa7c0a0de96b62b3"
+          },
+          {
+            "id": "bba7f87f299a47298cac01bc51a3c034"
+          }
+        ],
+        "coverId": "27cecadf9f0c4da2a85211c54ded5035",
+        "media": [
+          {
+            "id": "27cecadf9f0c4da2a85211c54ded5035",
+            "media": {
+              "id": "2289805b90fd4dfcb35f48acd6998dd1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e62e5c80e635433685c4a181907a89ca",
+        "productNumber": "DEMO-e62e5c80e635433685c4a181907a89ca",
+        "name": "Linen Button Front Dress",
+        "description": "<p>Stay comfortable during warmer months with this practical linen dress. The dress reaches just above the knee and features a relaxed silhouette that is suitable for most body types. The neckline has a gentle V-shape and the front showcases a row of medium-sized brown buttons for an appealing, classic appearance. The fabric is lightweight and naturally breathable, making it a reliable option for humid days. The short sleeves offer enough coverage for sun protection without overheating.</p>\n<p>Two practical side pockets are incorporated without adding bulk, suitable for small items like a phone or keys. The inside seams have been carefully finished to avoid skin irritation. This dress is unlined to maintain its airy feel, but the fabric is closely woven for opacity in light colors. Wear it with sandals for picnics or slip on sneakers for a city break. Washing is simple and does not require special care—machine wash, tumble dry low, and iron as needed.</p>\n<p>Several color choices are available, including pale blue, olive, and sand, designed to match a range of accessories. This dress is versatile enough for daily errands, brunch, or vacation packing. Available in standard and tall lengths to better fit your proportions.</p>",
+        "stock": 32,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 41.99,
+            "net": 41.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "e62e5c80e635433685c4a181907a89ca",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Tania Machado",
+            "externalEmail": "tania.machado@example.com",
+            "title": "Very comfortable for errands",
+            "content": "I've worn this dress a few times now and it's become my favorite for running errands. It's light, the fabric feels nice on the skin, and the pockets are great. I ordered the blue one in tall and it hit just at the right spot above my knees. Will buy another color soon.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Meena Patel",
+            "externalEmail": "meena.patel@gmail.com",
+            "title": "Nice fabric but loose fit",
+            "content": "The quality of the material is good and I love that it doesn't cling, but I found the dress a bit wide overall. Maybe a size down would have been better for me. Fast shipping and good service though.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Linda Ross",
+            "externalEmail": "lindaross12@outlook.com",
+            "title": "Was expecting better finishing",
+            "content": "I gave this dress a try based on the reviews but I noticed some loose threads at the seams. It's wearable but I had to snip them off before washing. Otherwise, the dress is okay for everyday use.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Clara M.",
+            "externalEmail": "clarama.85@mail.com",
+            "title": "Perfect summer staple",
+            "content": "Breathable, simple, easy to dress up or down. The olive color looks great. I got compliments from friends at a picnic. Will check out other items from this brand.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Beth Crane",
+            "externalEmail": "bethcrane77@gmail.com",
+            "title": "Didn't suit my body shape",
+            "content": "I liked the pocket detail, but the shape didn't fit me well and made me look boxy. Returned it without hassle, customer support was helpful.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "bba7f87f299a47298cac01bc51a3c034"
+          },
+          {
+            "id": "39cd578dd5934ce1895aa8df9a2da87b"
+          }
+        ],
+        "coverId": "b4b5a3c460e3460a8218060071b278d8",
+        "media": [
+          {
+            "id": "b4b5a3c460e3460a8218060071b278d8",
+            "media": {
+              "id": "643d76990f094629a7a492304af4b851"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a4aa9bed21cc4be3a0ae71669bb2e1b5",
+        "productNumber": "DEMO-a4aa9bed21cc4be3a0ae71669bb2e1b5",
+        "name": "Adjustable Strap Maxi Dress",
+        "description": "<p>The Adjustable Strap Maxi Dress offers a versatile and relaxed fit for the warmer months. Designed with a straight silhouette, this dress has simple lines and a comfortable length that falls slightly above the ankle. The wide neckline and thin adjustable straps allow you to customize the fit at the shoulders. The dress features a soft, gently draping fabric that moves easily and feels smooth against the skin.</p>\n<p>Practical side pockets are integrated into the seams, providing space for small essentials. The dress's hem is double-stitched for added durability, and the subtle color options suit both daytime wear or casual evenings. This garment is unlined to keep it lightweight. A minimalist design avoids unnecessary embellishments, making it easy to pair with sandals, hats, or jewelry of your choice. The easy-care fabric is machine washable and maintains its original shape wash after wash.</p>\n<p>Whether you're heading to a picnic, beach, or garden gathering, this maxi dress transitions easily from one activity to another. Available in multiple sizes, it caters to a range of body types and preferences. Choose this simple and timeless piece as a foundation for your summer fashion wardrobe.</p>",
+        "stock": 29,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 37.99,
+            "net": 37.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "a4aa9bed21cc4be3a0ae71669bb2e1b5",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Jessica L.",
+            "externalEmail": "jessica.l@email.com",
+            "title": "Light and Comfortable",
+            "content": "Wore this dress all day during a trip and didn’t feel uncomfortable even once. The straps adjust easily and pockets are a nice touch. Will buy another color.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Maria W.",
+            "externalEmail": "mariaw82@mail.net",
+            "title": "Nice for Hot Weather",
+            "content": "The fabric feels good and I like that it’s not too heavy. Sizing was just right for me. Might be a little see-through in some lighting though.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Chan K.",
+            "externalEmail": "chan.kim91@getmail.com",
+            "title": "Too Long for My Height",
+            "content": "I’m on the shorter side so this dress nearly touched the floor. The straps helped a bit but I still had to shorten it. Otherwise, it’s comfortable.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Arielle F.",
+            "externalEmail": "ariellef@email.org",
+            "title": "Runs Slightly Large",
+            "content": "I ordered my usual size and it’s a bit looser than expected. Good for lounging or the beach but not as fitted as I hoped.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Denise G.",
+            "externalEmail": "deniseg@email.com",
+            "title": "Shrank Midly After First Wash",
+            "content": "After the first wash, the length reduced slightly but didn’t lose overall shape. Still wearable, but something to note.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "1ae7c14f621249b6ae45e9565caef073"
+          },
+          {
+            "id": "f900c0389c0749cea07c8f5269582723"
+          }
+        ],
+        "coverId": "9e54259d620b42328433e7d388315c17",
+        "media": [
+          {
+            "id": "9e54259d620b42328433e7d388315c17",
+            "media": {
+              "id": "60b08c123e4046379d1ee3aa11da7f1f"
+            }
+          }
+        ]
+      },
+      {
+        "id": "21b134d94c384b8cb6924c342037306f",
+        "productNumber": "DEMO-21b134d94c384b8cb6924c342037306f",
+        "name": "Lightweight Blue Tapered Chino Shorts",
+        "description": "<p>Stay cool and comfortable this summer with our Lightweight Blue Tapered Chino Shorts. These casual shorts offer a classic fit with a slightly tailored leg, providing enough room for easy movement without appearing baggy. The soft texture ensures all-day comfort, making them perfect for everyday activities, from leisure walks in the park to relaxed gatherings with friends.</p>\n<p>The shorts feature a practical zip fly with a sturdy button closure at the waist. Two side pockets and two back welt pockets offer enough storage for your necessities, like wallets, keys, or your phone. The fabric is easy to maintain and resists wrinkles, so you can spend less time ironing and more time enjoying the sun. The blue color pairs well with a wide range of shirts, from solid white tees to patterned short sleeves.</p>\n<p>Available in waist sizes ranging from 28 to 40, and with two lengths to select from, these shorts will serve as a go-to option throughout the warm season. Whether you're heading to the beach or running errands, these chino shorts combine a neat look with practical design suitable for daily use.</p>\n<ul><li>Material: 65% polyester, 35% rayon</li><li>Care: Machine wash cold, tumble dry low</li><li>Model is 6’0” and wears size 32</li></ul>",
+        "stock": 62,
+        "taxId": "{{ taxId }}",
+        "price": [
+          {
+            "currencyId": "{{ currencyId }}",
+            "gross": 28.99,
+            "net": 28.99,
+            "linked": true
+          }
+        ],
+        "visibilities": [
+          {
+            "productId": "21b134d94c384b8cb6924c342037306f",
+            "salesChannelId": "{{ salesChannelId }}",
+            "visibility": 30
+          }
+        ],
+        "categories": [
+          {
+            "id": "{{ navigationCategoryId }}"
+          },
+          {
+            "id": "{{ productCategoryId }}"
+          }
+        ],
+        "productReviews": [
+          {
+            "externalUser": "Sam Edgar",
+            "externalEmail": "sam.edgar@email.com",
+            "title": "Great fit, good color",
+            "content": "Comfortable shorts that fit true to size. The blue is just as shown online. Wore them all day and no complaints.",
+            "points": 5,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Harriet Mills",
+            "externalEmail": "hmills@email.com",
+            "title": "Comfortable but thin",
+            "content": "I like the shape, but the material feels a bit thin for my taste. Works well for hot weather, though.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Victor Tran",
+            "externalEmail": "vtran@email.com",
+            "title": "Decent everyday shorts",
+            "content": "Not the highest quality but good enough for the price. The pockets are deep and useful. Would buy again.",
+            "points": 4,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Jorge Sierra",
+            "externalEmail": "jorge.sierra@email.com",
+            "title": "Loose at the waist",
+            "content": "Shorts look and feel nice but the waistband stretched out a little after a couple wears. Still wearable.",
+            "points": 3,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          },
+          {
+            "externalUser": "Dana Fields",
+            "externalEmail": "fields_dana@email.com",
+            "title": "Not for me",
+            "content": "I found the shorts too baggy and not as tapered as I hoped. Returned them.",
+            "points": 2,
+            "status": true,
+            "salesChannelId": "{{ salesChannelId }}"
+          }
+        ],
+        "properties": [
+          {
+            "id": "239c174a17494a58b0fd51d5a6da954e"
+          },
+          {
+            "id": "0584a070052a40ac952354e72b04497b"
+          }
+        ],
+        "coverId": "62597ceb19d24ec7a1c3a66f13d7fdd7",
+        "media": [
+          {
+            "id": "62597ceb19d24ec7a1c3a66f13d7fdd7",
+            "media": {
+              "id": "d2d48fb0b7f7467d83a45f106c8ae359"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hydrateMedia": {
+    "entity": "media",
+    "action": "upsert",
+    "payload": [
+      {
+        "id": "32ed9470087346ec9fcccf2e37bedefd",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "cf931a85e34843ca8ea4d9f7cb05d46d",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "f4e5aa27499d48cb8db124d064276db2",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "8add87df3ca343d59641e2c9aadd9c34",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "2f79c83309d04291bd9ae511061c062d",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "d6581a186a1c425393fc22e736d737ab",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "036d9436de6240b69fa0ee7a501edd87",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "5b7eb89d4ada4ad480883155c640df84",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "36387f599511455bb2902508bc45585b",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "09cb53c3f7594dc9b50f7825f5d9611f",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "3e90b60e373547839341b25f0abc8f7c",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "16511ae05eb44abca2f58e5fba0c7855",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "b3968ad9d6f7421290d0739d9b7aedd8",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "28761a3d3a814e21b1ed39e843a53b81",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "c10e38a34455478887712016dc846f09",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "263bd4070eec45529b3bddd7bdd32e53",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "8610062b194049e49f42c11d5dd3754d",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "a7ad267a7abe4607adad2e207f7ad17e",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "4bed05dc07bf440ba1c146e5d0fe91e4",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "29f69172422f4109b95488109febff75",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "440f53ff9d574efe8c97b4089ed2d308",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "b40f3bcf65064d6797c64c898ad3d767",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "349486942ecb4ce7996c700526676492",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "bb30e40e1cb742719e08bd44437d452d",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "6319810fca0041c99b969768862d1706",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "01e5a3676b134f7e899c238f92e84251",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "2289805b90fd4dfcb35f48acd6998dd1",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "643d76990f094629a7a492304af4b851",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "60b08c123e4046379d1ee3aa11da7f1f",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      },
+      {
+        "id": "d2d48fb0b7f7467d83a45f106c8ae359",
+        "private": false,
+        "mediaFolderId": "{{ defaultProductMediaFolderId }}"
+      }
+    ]
+  }
+}

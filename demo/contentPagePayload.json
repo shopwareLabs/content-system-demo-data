@@ -1,0 +1,155 @@
+{
+    "write-content-layouts": {
+        "entity": "content_layout",
+        "action": "upsert",
+        "payload": [
+            {
+                "id": "daf166acd4bd45caa657c579f523d743",
+                "name": "Basic Listing",
+                "version": "1.0.0",
+                "layout": [
+                    {
+                        "id": "homepage-grid-container",
+                        "component": "Sw:Grid:Container",
+                        "properties": {
+                            "columns": "2",
+                            "columnsLg": "1",
+                            "gap": "60",
+                            "align": "start",
+                            "alignContent": "start",
+                            "justify": "stretch",
+                            "justifyContent": "stretch"
+                        },
+                        "slots": {
+                            "column-1": [
+                                {
+                                    "id": "media-column",
+                                    "component": "Sw:Grid:Column",
+                                    "properties": {
+                                        "start": null,
+                                        "span": null
+                                    },
+                                    "slots": {
+                                        "content": [
+                                            {
+                                                "id": "hero-image",
+                                                "component": "Sw:Media:Image",
+                                                "properties": {
+                                                    "mediaId": "{{ heroImageMediaId }}"
+                                                },
+                                                "data_requirements": {
+                                                    "media": {
+                                                        "key": "media",
+                                                        "source": "entity",
+                                                        "config": {
+                                                            "entity": "media",
+                                                            "property": "mediaId"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "column-2": [
+                                {
+                                    "id": "text-column",
+                                    "component": "Sw:Grid:Column",
+                                    "properties": {
+                                        "start": null,
+                                        "span": null
+                                    },
+                                    "slots": {
+                                        "default": [
+                                            {
+                                                "id": "welcome-text",
+                                                "component": "Sw:Content:Text",
+                                                "properties": {
+                                                    "text": "<h1>Discover Your Summer Style</h1><p>Step into the sunshine with our Summer Fashion Collection! From breezy dresses and linen shirts to stylish sandals and bold accessories — everything you need to stay cool and look effortlessly chic all season long. Embrace vibrant colors, light fabrics, and timeless designs perfect for beach days, city strolls, and evening get-togethers. Your next favorite outfit is waiting — explore now and make this summer your most stylish one yet.</p><p>Each piece in our collection is carefully selected to combine comfort and elegance, using high-quality materials that feel as good as they look. Whether you're planning a weekend getaway or updating your everyday wardrobe, our summer essentials will keep you glowing with confidence and ready for every adventure under the sun.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "homepage-product-listing",
+                        "component": "Sw:Product:Listing",
+                        "properties": {
+                            "categoryId": "{{ navigationCategoryId }}"
+                        },
+                        "data_requirements": {
+                            "listing": {
+                                "key": "listing",
+                                "source": "product_listing",
+                                "config": {
+                                    "property": "categoryId",
+                                    "associations": ["cover", "manufacturer"]
+                                }
+                            }
+                        },
+                        "provides_context": {
+                            "listing": {
+                                "type": "single",
+                                "distribution": "broadcast"
+                            }
+                        },
+                        "slots": {
+                            "filters-panel": [
+                                {
+                                    "id": "homepage-filter-panel",
+                                    "component": "Sw:Filter:Panel",
+                                    "properties": {},
+                                    "accepts_context": {
+                                        "listing.total": {
+                                            "type": "single",
+                                            "required": false,
+                                            "property_alias": "totalCount"
+                                        },
+                                        "listing.sorting": {
+                                            "type": "single",
+                                            "required": false,
+                                            "property_alias": "currentSorting"
+                                        },
+                                        "listing.aggregations": {
+                                            "type": "single",
+                                            "required": false,
+                                            "property_alias": "filterAggregations"
+                                        },
+                                        "listing.availableSortings": {
+                                            "type": "single",
+                                            "required": false,
+                                            "property_alias": "availableSortings"
+                                        }
+                                    }
+                                }
+                            ],
+                            "product-card": []
+                        }
+                    }
+                ],
+                "schema": {}
+            }
+        ]
+    },
+    "write-category-content-layouts": {
+        "entity": "category_content_layout",
+        "action": "upsert",
+        "payload": [
+            {
+                "id": "0199b96101fe70ec851e971788686901",
+                "categoryId": "{{ navigationCategoryId }}",
+                "salesChannelId": "{{ salesChannelId }}",
+                "contentLayoutId": "daf166acd4bd45caa657c579f523d743",
+                "parameterBindings": {
+                    "categoryId": {
+                        "placeholder": "category_id"
+                    }
+                }
+            }
+        ]
+    }
+}
