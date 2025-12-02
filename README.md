@@ -17,7 +17,7 @@ The script performs upsert sync API requests and can be repeated at any time.
 The content system prototype is available in the `shopware/shopware` repository, under the following branch:
 
 ```
-8484/storefront-content-system
+8484/content-system-prototype
 ```
  
 
