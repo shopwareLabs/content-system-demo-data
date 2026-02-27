@@ -14,7 +14,7 @@
                         "properties": {
                             "columns": "2",
                             "columnsLg": "1",
-                            "gap": "60",
+                            "gap": {"lg": 4, "md": 4, "sm": 3, "xl": 4, "xs": 3, "xxl": 4},
                             "align": "start",
                             "alignContent": "start",
                             "justify": "stretch",
