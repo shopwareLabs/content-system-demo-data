@@ -269,7 +269,8 @@ try {
 }
 
 try {
-    await syncApiCall(contentPagePayloadData);
+    const contentPageSyncResponse = await syncApiCall(contentPagePayloadData);
+    console.log(contentPageSyncResponse);
 } catch (error) {
     console.error(error);
 }
