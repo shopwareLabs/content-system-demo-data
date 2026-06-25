@@ -4,97 +4,104 @@
     "action": "upsert",
     "payload": [
       {
-        "id": "homepage-grid-container",
-        "component": "Sw:Grid:Container",
-        "properties": {
-          "columns": {
-            "xs": 1,
-            "sm": 1,
-            "md": 1,
-            "lg": 2,
-            "xl": 2
-          },
-          "columnsLg": "1",
-          "gap": 60,
-          "align": "start",
-          "alignContent": "start",
-          "justify": "stretch",
-          "justifyContent": "stretch",
-          "borderSubtle": false,
-          "columnsSm": null,
-          "columnsMd": null,
-          "mode": "explicit",
-          "rows": 1,
-          "itemMinWidth": "400px",
-          "centered": true
-        },
-        "data_requirements": [],
-        "slots": {
-          "content": [
-            {
-              "id": "hero-image",
-              "component": "Sw:Media:Image",
-              "properties": {
-                "mediaId": "9973bd1a64a8467ca3f18b49d8bfa753"
+        "id": "daf166acd4bd45caa657c579f523d743",
+        "name": "Basic Listing",
+        "version": "1.0.0",
+        "layout": [
+          {
+            "id": "9973bd1a64a8467ca3f18b49d8bfa754",
+            "component": "Sw:Grid:Container",
+            "properties": {
+              "columns": {
+                "xs": 1,
+                "sm": 1,
+                "md": 1,
+                "lg": 2,
+                "xl": 2
               },
-              "data_requirements": {
-                "media": {
-                  "key": "media",
-                  "source": "entity",
-                  "config": {
-                    "entity": "media",
-                    "property": "mediaId",
-                    "associations": []
-                  }
-                }
-              },
-              "slots": []
+              "columnsLg": "1",
+              "gap": 60,
+              "align": "start",
+              "alignContent": "start",
+              "justify": "stretch",
+              "justifyContent": "stretch",
+              "borderSubtle": false,
+              "columnsSm": null,
+              "columnsMd": null,
+              "mode": "explicit",
+              "rows": 1,
+              "itemMinWidth": "400px",
+              "centered": true
             },
-            {
-              "id": "019eca3878457ca4a4def4a393f813bc",
-              "component": "Sw:Content:Text",
-              "properties": {
-                "text": "<h1>Discover Your Summer Style</h1><p style=\"text-align:left;\">Step into the sunshine with our <b>Summer Fashion</b> Collection! From breezy dresses and linen shirts to stylish sandals and bold accessories. Everything you need to stay cool and look effortlessly chic all season long. Embrace vibrant colors, light fabrics, and timeless designs perfect for beach days, city strolls, and evening get-togethers. Your next favorite outfit is waiting. Explore now and make this summer your most stylish one yet.</p><p>Each piece in our collection is carefully selected to combine comfort and elegance, using high-quality materials that feel as good as they look. Whether you're planning a weekend getaway or updating your everyday wardrobe, our <b>summer essentials</b> will keep you glowing with confidence and ready for every adventure under the sun.</p>"
-              },
-              "data_requirements": [],
-              "slots": []
-            }
-          ]
-        }
-      },
-      {
-        "id": "homepage-product-listing",
-        "component": "Sw:Product:Listing",
-        "properties": {
-          "navigationId": "{{categoryId}}"
-        },
-        "data_requirements": {
-          "listing": {
-            "key": "listing",
-            "source": "product_listing",
-            "config": {
-              "property": "navigationId",
-              "associations": [
-                "cover",
-                "cover.media",
-                "cover.media.thumbnails",
-                "manufacturer"
+            "data_requirements": [],
+            "slots": {
+              "content": [
+                {
+                  "id": "9973bd1a64a8467ca3f18b49d8bfa755",
+                  "component": "Sw:Media:Image",
+                  "properties": {
+                    "mediaId": "{{ heroImageMediaId }}"
+                  },
+                  "data_requirements": {
+                    "media": {
+                      "key": "media",
+                      "source": "entity",
+                      "config": {
+                        "entity": "media",
+                        "property": "mediaId",
+                        "associations": []
+                      }
+                    }
+                  },
+                  "slots": []
+                },
+                {
+                  "id": "019eca3878457ca4a4def4a393f813bc",
+                  "component": "Sw:Content:Text",
+                  "properties": {
+                    "text": "<h1>Discover Your Summer Style</h1><p style=\"text-align:left;\">Step into the sunshine with our <b>Summer Fashion</b> Collection! From breezy dresses and linen shirts to stylish sandals and bold accessories. Everything you need to stay cool and look effortlessly chic all season long. Embrace vibrant colors, light fabrics, and timeless designs perfect for beach days, city strolls, and evening get-togethers. Your next favorite outfit is waiting. Explore now and make this summer your most stylish one yet.</p><p>Each piece in our collection is carefully selected to combine comfort and elegance, using high-quality materials that feel as good as they look. Whether you're planning a weekend getaway or updating your everyday wardrobe, our <b>summer essentials</b> will keep you glowing with confidence and ready for every adventure under the sun.</p>"
+                  },
+                  "data_requirements": [],
+                  "slots": []
+                }
               ]
             }
-          }
-        },
-        "slots": {
-          "filters-panel": [
-            {
-              "id": "homepage-filter-panel",
-              "component": "Sw:Filter:Panel",
-              "properties": [],
-              "data_requirements": [],
-              "slots": []
+          },
+          {
+            "id": "9973bd1a64a8467ca3f18b49d8bfa757",
+            "component": "Sw:Product:Listing",
+            "properties": {
+              "navigationId": "{{categoryId}}"
+            },
+            "data_requirements": {
+              "listing": {
+                "key": "listing",
+                "source": "product_listing",
+                "config": {
+                  "property": "navigationId",
+                  "associations": [
+                    "cover",
+                    "cover.media",
+                    "cover.media.thumbnails",
+                    "manufacturer"
+                  ]
+                }
+              }
+            },
+            "slots": {
+              "filters-panel": [
+                {
+                  "id": "9973bd1a64a8467ca3f18b49d8bfa758",
+                  "component": "Sw:Filter:Panel",
+                  "properties": [],
+                  "data_requirements": [],
+                  "slots": []
+                }
+              ],
+              "product-grid": []
             }
-          ],
-          "product-grid": []
-        }
+          }
+        ]
       }
     ]
   },
