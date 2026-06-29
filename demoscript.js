@@ -270,7 +270,12 @@ try {
 
 try {
     const contentPageSyncResponse = await syncApiCall(contentPagePayloadData);
-    console.log(contentPageSyncResponse);
+
+    if (contentPageSyncResponse.errors?.length > 0) {
+        for (const error of contentPageSyncResponse.errors) {
+            console.error(error);
+        }
+    }
 } catch (error) {
     console.error(error);
 }
